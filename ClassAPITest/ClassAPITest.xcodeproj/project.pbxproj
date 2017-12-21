@@ -16,6 +16,45 @@
 		C838F76B1D3CDF5B002A3D71 /* ClassAPITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C838F76A1D3CDF5B002A3D71 /* ClassAPITestTests.m */; };
 		C838F7761D3CDF5B002A3D71 /* ClassAPITestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C838F7751D3CDF5B002A3D71 /* ClassAPITestUITests.m */; };
 		C838F7841D3CDF8D002A3D71 /* NSArrayTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C838F7831D3CDF8D002A3D71 /* NSArrayTestCase.m */; };
+		E190CBC31FEBB1BD003F9D76 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBC21FEBB1BD003F9D76 /* Circle.m */; };
+		E190CBC61FEBB1CD003F9D76 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBC51FEBB1CD003F9D76 /* Square.m */; };
+		E190CBC91FEBB1D6003F9D76 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBC81FEBB1D6003F9D76 /* Rectangle.m */; };
+		E190CBCC1FEBB26D003F9D76 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBCB1FEBB26D003F9D76 /* Shape.m */; };
+		E190CBCF1FEBB2C1003F9D76 /* ShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBCE1FEBB2C1003F9D76 /* ShapeFactory.m */; };
+		E190CBD21FEBB31B003F9D76 /* DesignPatternTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBD11FEBB31B003F9D76 /* DesignPatternTest.m */; };
+		E190CBF31FEBC479003F9D76 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBE91FEBC479003F9D76 /* AbstractFactory.m */; };
+		E190CBF41FEBC479003F9D76 /* ZDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBEA1FEBC479003F9D76 /* ZDColor.m */; };
+		E190CBF51FEBC479003F9D76 /* ZDShape.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBEB1FEBC479003F9D76 /* ZDShape.m */; };
+		E190CBF61FEBC479003F9D76 /* FactoryProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBED1FEBC479003F9D76 /* FactoryProducer.m */; };
+		E190CBF71FEBC479003F9D76 /* ZDColorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBEF1FEBC479003F9D76 /* ZDColorFactory.m */; };
+		E190CBF81FEBC479003F9D76 /* ZDShapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBF11FEBC479003F9D76 /* ZDShapFactory.m */; };
+		E190CBFB1FEBC506003F9D76 /* ZDRed.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBFA1FEBC506003F9D76 /* ZDRed.m */; };
+		E190CBFE1FEBC528003F9D76 /* ZDCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBFD1FEBC528003F9D76 /* ZDCircle.m */; };
+		E190CC011FEBC8BA003F9D76 /* ShapCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC001FEBC8BA003F9D76 /* ShapCache.m */; };
+		E190CC041FEBCB49003F9D76 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC031FEBCB49003F9D76 /* Builder.m */; };
+		E190CC071FEBCB5C003F9D76 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC061FEBCB5C003F9D76 /* Meal.m */; };
+		E190CC0A1FEBCB7C003F9D76 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC091FEBCB7C003F9D76 /* Item.m */; };
+		E190CC0D1FEBCB87003F9D76 /* Packing.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC0C1FEBCB87003F9D76 /* Packing.m */; };
+		E190CC101FEBCB96003F9D76 /* MealBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC0F1FEBCB96003F9D76 /* MealBuilder.m */; };
+		E190CC131FEBCBAF003F9D76 /* Burger.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC121FEBCBAF003F9D76 /* Burger.m */; };
+		E190CC161FEBCBD5003F9D76 /* Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC151FEBCBD5003F9D76 /* Wrapper.m */; };
+		E190CC191FEBCDE7003F9D76 /* SingleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC181FEBCDE7003F9D76 /* SingleObject.m */; };
+		E190CC1C1FEBCE4B003F9D76 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC1B1FEBCE4B003F9D76 /* Strategy.m */; };
+		E190CC1F1FEBCE5A003F9D76 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC1E1FEBCE5A003F9D76 /* Context.m */; };
+		E190CC221FEBCE6C003F9D76 /* OpearationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC211FEBCE6C003F9D76 /* OpearationAdd.m */; };
+		E190CC261FEBD28E003F9D76 /* Criteria.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC251FEBD28E003F9D76 /* Criteria.m */; };
+		E190CC291FEBD2A8003F9D76 /* AndCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC281FEBD2A8003F9D76 /* AndCriteria.m */; };
+		E190CC2C1FEBD2BE003F9D76 /* OrCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC2B1FEBD2BE003F9D76 /* OrCriteria.m */; };
+		E190CC2F1FEBD2C7003F9D76 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC2E1FEBD2C7003F9D76 /* Person.m */; };
+		E190CC321FEBD3AD003F9D76 /* CriteriaMale.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC311FEBD3AD003F9D76 /* CriteriaMale.m */; };
+		E190CC351FEBD74E003F9D76 /* CriteriaSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC341FEBD74E003F9D76 /* CriteriaSingle.m */; };
+		E190CC381FEBDADB003F9D76 /* ShapeDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC371FEBDADB003F9D76 /* ShapeDecorator.m */; };
+		E190CC3B1FEBDB01003F9D76 /* RedShapeDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC3A1FEBDB01003F9D76 /* RedShapeDecorator.m */; };
+		E190CC3E1FEBDE4A003F9D76 /* ShapeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC3D1FEBDE4A003F9D76 /* ShapeMaker.m */; };
+		E190CC411FEBDF41003F9D76 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC401FEBDF41003F9D76 /* State.m */; };
+		E190CC441FEBDF56003F9D76 /* StartState.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC431FEBDF56003F9D76 /* StartState.m */; };
+		E190CC471FEBDF60003F9D76 /* StopState.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC461FEBDF60003F9D76 /* StopState.m */; };
+		E190CC4A1FEBDF75003F9D76 /* StateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC491FEBDF75003F9D76 /* StateContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +92,84 @@
 		C838F7751D3CDF5B002A3D71 /* ClassAPITestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassAPITestUITests.m; sourceTree = "<group>"; };
 		C838F7771D3CDF5B002A3D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C838F7831D3CDF8D002A3D71 /* NSArrayTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayTestCase.m; sourceTree = "<group>"; };
+		E190CBC11FEBB1BD003F9D76 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		E190CBC21FEBB1BD003F9D76 /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		E190CBC41FEBB1CD003F9D76 /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		E190CBC51FEBB1CD003F9D76 /* Square.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		E190CBC71FEBB1D6003F9D76 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		E190CBC81FEBB1D6003F9D76 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		E190CBCA1FEBB26D003F9D76 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		E190CBCB1FEBB26D003F9D76 /* Shape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		E190CBCD1FEBB2C1003F9D76 /* ShapeFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeFactory.h; sourceTree = "<group>"; };
+		E190CBCE1FEBB2C1003F9D76 /* ShapeFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeFactory.m; sourceTree = "<group>"; };
+		E190CBD01FEBB31B003F9D76 /* DesignPatternTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatternTest.h; sourceTree = "<group>"; };
+		E190CBD11FEBB31B003F9D76 /* DesignPatternTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternTest.m; sourceTree = "<group>"; };
+		E190CBE51FEBC479003F9D76 /* FactoryProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryProducer.h; sourceTree = "<group>"; };
+		E190CBE71FEBC479003F9D76 /* ZDShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDShape.h; sourceTree = "<group>"; };
+		E190CBE81FEBC479003F9D76 /* ZDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDColor.h; sourceTree = "<group>"; };
+		E190CBE91FEBC479003F9D76 /* AbstractFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		E190CBEA1FEBC479003F9D76 /* ZDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDColor.m; sourceTree = "<group>"; };
+		E190CBEB1FEBC479003F9D76 /* ZDShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDShape.m; sourceTree = "<group>"; };
+		E190CBEC1FEBC479003F9D76 /* AbstractFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		E190CBED1FEBC479003F9D76 /* FactoryProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryProducer.m; sourceTree = "<group>"; };
+		E190CBEF1FEBC479003F9D76 /* ZDColorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDColorFactory.m; sourceTree = "<group>"; };
+		E190CBF01FEBC479003F9D76 /* ZDShapFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDShapFactory.h; sourceTree = "<group>"; };
+		E190CBF11FEBC479003F9D76 /* ZDShapFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDShapFactory.m; sourceTree = "<group>"; };
+		E190CBF21FEBC479003F9D76 /* ZDColorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDColorFactory.h; sourceTree = "<group>"; };
+		E190CBF91FEBC506003F9D76 /* ZDRed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDRed.h; sourceTree = "<group>"; };
+		E190CBFA1FEBC506003F9D76 /* ZDRed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDRed.m; sourceTree = "<group>"; };
+		E190CBFC1FEBC528003F9D76 /* ZDCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDCircle.h; sourceTree = "<group>"; };
+		E190CBFD1FEBC528003F9D76 /* ZDCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDCircle.m; sourceTree = "<group>"; };
+		E190CBFF1FEBC8BA003F9D76 /* ShapCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapCache.h; sourceTree = "<group>"; };
+		E190CC001FEBC8BA003F9D76 /* ShapCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapCache.m; sourceTree = "<group>"; };
+		E190CC021FEBCB49003F9D76 /* Builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		E190CC031FEBCB49003F9D76 /* Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+		E190CC051FEBCB5C003F9D76 /* Meal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		E190CC061FEBCB5C003F9D76 /* Meal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		E190CC081FEBCB7C003F9D76 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		E190CC091FEBCB7C003F9D76 /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		E190CC0B1FEBCB87003F9D76 /* Packing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Packing.h; sourceTree = "<group>"; };
+		E190CC0C1FEBCB87003F9D76 /* Packing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Packing.m; sourceTree = "<group>"; };
+		E190CC0E1FEBCB96003F9D76 /* MealBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MealBuilder.h; sourceTree = "<group>"; };
+		E190CC0F1FEBCB96003F9D76 /* MealBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MealBuilder.m; sourceTree = "<group>"; };
+		E190CC111FEBCBAF003F9D76 /* Burger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Burger.h; sourceTree = "<group>"; };
+		E190CC121FEBCBAF003F9D76 /* Burger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Burger.m; sourceTree = "<group>"; };
+		E190CC141FEBCBD5003F9D76 /* Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		E190CC151FEBCBD5003F9D76 /* Wrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wrapper.m; sourceTree = "<group>"; };
+		E190CC171FEBCDE7003F9D76 /* SingleObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleObject.h; sourceTree = "<group>"; };
+		E190CC181FEBCDE7003F9D76 /* SingleObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleObject.m; sourceTree = "<group>"; };
+		E190CC1A1FEBCE4B003F9D76 /* Strategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		E190CC1B1FEBCE4B003F9D76 /* Strategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Strategy.m; sourceTree = "<group>"; };
+		E190CC1D1FEBCE5A003F9D76 /* Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		E190CC1E1FEBCE5A003F9D76 /* Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+		E190CC201FEBCE6C003F9D76 /* OpearationAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpearationAdd.h; sourceTree = "<group>"; };
+		E190CC211FEBCE6C003F9D76 /* OpearationAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpearationAdd.m; sourceTree = "<group>"; };
+		E190CC241FEBD28E003F9D76 /* Criteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Criteria.h; sourceTree = "<group>"; };
+		E190CC251FEBD28E003F9D76 /* Criteria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Criteria.m; sourceTree = "<group>"; };
+		E190CC271FEBD2A8003F9D76 /* AndCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndCriteria.h; sourceTree = "<group>"; };
+		E190CC281FEBD2A8003F9D76 /* AndCriteria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndCriteria.m; sourceTree = "<group>"; };
+		E190CC2A1FEBD2BE003F9D76 /* OrCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrCriteria.h; sourceTree = "<group>"; };
+		E190CC2B1FEBD2BE003F9D76 /* OrCriteria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrCriteria.m; sourceTree = "<group>"; };
+		E190CC2D1FEBD2C7003F9D76 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E190CC2E1FEBD2C7003F9D76 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E190CC301FEBD3AD003F9D76 /* CriteriaMale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CriteriaMale.h; sourceTree = "<group>"; };
+		E190CC311FEBD3AD003F9D76 /* CriteriaMale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriteriaMale.m; sourceTree = "<group>"; };
+		E190CC331FEBD74E003F9D76 /* CriteriaSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CriteriaSingle.h; sourceTree = "<group>"; };
+		E190CC341FEBD74E003F9D76 /* CriteriaSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriteriaSingle.m; sourceTree = "<group>"; };
+		E190CC361FEBDADB003F9D76 /* ShapeDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeDecorator.h; sourceTree = "<group>"; };
+		E190CC371FEBDADB003F9D76 /* ShapeDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeDecorator.m; sourceTree = "<group>"; };
+		E190CC391FEBDB01003F9D76 /* RedShapeDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedShapeDecorator.h; sourceTree = "<group>"; };
+		E190CC3A1FEBDB01003F9D76 /* RedShapeDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedShapeDecorator.m; sourceTree = "<group>"; };
+		E190CC3C1FEBDE4A003F9D76 /* ShapeMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeMaker.h; sourceTree = "<group>"; };
+		E190CC3D1FEBDE4A003F9D76 /* ShapeMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeMaker.m; sourceTree = "<group>"; };
+		E190CC3F1FEBDF41003F9D76 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		E190CC401FEBDF41003F9D76 /* State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		E190CC421FEBDF56003F9D76 /* StartState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartState.h; sourceTree = "<group>"; };
+		E190CC431FEBDF56003F9D76 /* StartState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartState.m; sourceTree = "<group>"; };
+		E190CC451FEBDF60003F9D76 /* StopState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopState.h; sourceTree = "<group>"; };
+		E190CC461FEBDF60003F9D76 /* StopState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopState.m; sourceTree = "<group>"; };
+		E190CC481FEBDF75003F9D76 /* StateContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateContext.h; sourceTree = "<group>"; };
+		E190CC491FEBDF75003F9D76 /* StateContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +222,7 @@
 			children = (
 				C838F7531D3CDF5B002A3D71 /* AppDelegate.h */,
 				C838F7541D3CDF5B002A3D71 /* AppDelegate.m */,
+				E190CBA41FEBB0F0003F9D76 /* 设计模式 */,
 				C838F7561D3CDF5B002A3D71 /* ViewController.h */,
 				C838F7571D3CDF5B002A3D71 /* ViewController.m */,
 				C838F7591D3CDF5B002A3D71 /* Main.storyboard */,
@@ -141,6 +259,323 @@
 				C838F7771D3CDF5B002A3D71 /* Info.plist */,
 			);
 			path = ClassAPITestUITests;
+			sourceTree = "<group>";
+		};
+		E190CBA41FEBB0F0003F9D76 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CBA51FEBB0F0003F9D76 /* 行为型 */,
+				E190CBB11FEBB0F0003F9D76 /* 创建型 */,
+				E190CBB71FEBB0F0003F9D76 /* 结构型 */,
+				E190CBD01FEBB31B003F9D76 /* DesignPatternTest.h */,
+				E190CBD11FEBB31B003F9D76 /* DesignPatternTest.m */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
+		E190CBA51FEBB0F0003F9D76 /* 行为型 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CBA61FEBB0F0003F9D76 /* 策略模式 */,
+				E190CBA71FEBB0F0003F9D76 /* 访问者模式 */,
+				E190CBA81FEBB0F0003F9D76 /* 命令模式 */,
+				E190CBA91FEBB0F0003F9D76 /* 模板方法模式 */,
+				E190CBAA1FEBB0F0003F9D76 /* 中介者模式 */,
+				E190CBAB1FEBB0F0003F9D76 /* 责任链模式 */,
+				E190CBAC1FEBB0F0003F9D76 /* 迭代子模式 */,
+				E190CBAD1FEBB0F0003F9D76 /* 状态模式 */,
+				E190CBAE1FEBB0F0003F9D76 /* 备忘录模式 */,
+				E190CBAF1FEBB0F0003F9D76 /* 解释器模式 */,
+				E190CBB01FEBB0F0003F9D76 /* 观察者模式 */,
+			);
+			path = "行为型";
+			sourceTree = "<group>";
+		};
+		E190CBA61FEBB0F0003F9D76 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CC1A1FEBCE4B003F9D76 /* Strategy.h */,
+				E190CC1B1FEBCE4B003F9D76 /* Strategy.m */,
+				E190CC1D1FEBCE5A003F9D76 /* Context.h */,
+				E190CC1E1FEBCE5A003F9D76 /* Context.m */,
+				E190CC201FEBCE6C003F9D76 /* OpearationAdd.h */,
+				E190CC211FEBCE6C003F9D76 /* OpearationAdd.m */,
+			);
+			path = "策略模式";
+			sourceTree = "<group>";
+		};
+		E190CBA71FEBB0F0003F9D76 /* 访问者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "访问者模式";
+			sourceTree = "<group>";
+		};
+		E190CBA81FEBB0F0003F9D76 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		E190CBA91FEBB0F0003F9D76 /* 模板方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "模板方法模式";
+			sourceTree = "<group>";
+		};
+		E190CBAA1FEBB0F0003F9D76 /* 中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "中介者模式";
+			sourceTree = "<group>";
+		};
+		E190CBAB1FEBB0F0003F9D76 /* 责任链模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "责任链模式";
+			sourceTree = "<group>";
+		};
+		E190CBAC1FEBB0F0003F9D76 /* 迭代子模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "迭代子模式";
+			sourceTree = "<group>";
+		};
+		E190CBAD1FEBB0F0003F9D76 /* 状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CC3F1FEBDF41003F9D76 /* State.h */,
+				E190CC401FEBDF41003F9D76 /* State.m */,
+				E190CC421FEBDF56003F9D76 /* StartState.h */,
+				E190CC431FEBDF56003F9D76 /* StartState.m */,
+				E190CC451FEBDF60003F9D76 /* StopState.h */,
+				E190CC461FEBDF60003F9D76 /* StopState.m */,
+				E190CC481FEBDF75003F9D76 /* StateContext.h */,
+				E190CC491FEBDF75003F9D76 /* StateContext.m */,
+			);
+			path = "状态模式";
+			sourceTree = "<group>";
+		};
+		E190CBAE1FEBB0F0003F9D76 /* 备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "备忘录模式";
+			sourceTree = "<group>";
+		};
+		E190CBAF1FEBB0F0003F9D76 /* 解释器模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "解释器模式";
+			sourceTree = "<group>";
+		};
+		E190CBB01FEBB0F0003F9D76 /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		E190CBB11FEBB0F0003F9D76 /* 创建型 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CBB21FEBB0F0003F9D76 /* 抽象工厂 */,
+				E190CBB31FEBB0F0003F9D76 /* 单例模式 */,
+				E190CBB41FEBB0F0003F9D76 /* 原型模式 */,
+				E190CBB51FEBB0F0003F9D76 /* 建造者模式 */,
+				E190CBB61FEBB0F0003F9D76 /* 工厂模式 */,
+			);
+			path = "创建型";
+			sourceTree = "<group>";
+		};
+		E190CBB21FEBB0F0003F9D76 /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CBE61FEBC479003F9D76 /* abstractClass */,
+				E190CBE51FEBC479003F9D76 /* FactoryProducer.h */,
+				E190CBED1FEBC479003F9D76 /* FactoryProducer.m */,
+				E190CBEE1FEBC479003F9D76 /* impClass */,
+			);
+			path = "抽象工厂";
+			sourceTree = "<group>";
+		};
+		E190CBB31FEBB0F0003F9D76 /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CC171FEBCDE7003F9D76 /* SingleObject.h */,
+				E190CC181FEBCDE7003F9D76 /* SingleObject.m */,
+			);
+			path = "单例模式";
+			sourceTree = "<group>";
+		};
+		E190CBB41FEBB0F0003F9D76 /* 原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CBFF1FEBC8BA003F9D76 /* ShapCache.h */,
+				E190CC001FEBC8BA003F9D76 /* ShapCache.m */,
+			);
+			path = "原型模式";
+			sourceTree = "<group>";
+		};
+		E190CBB51FEBB0F0003F9D76 /* 建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CC021FEBCB49003F9D76 /* Builder.h */,
+				E190CC031FEBCB49003F9D76 /* Builder.m */,
+				E190CC051FEBCB5C003F9D76 /* Meal.h */,
+				E190CC061FEBCB5C003F9D76 /* Meal.m */,
+				E190CC081FEBCB7C003F9D76 /* Item.h */,
+				E190CC091FEBCB7C003F9D76 /* Item.m */,
+				E190CC0B1FEBCB87003F9D76 /* Packing.h */,
+				E190CC0C1FEBCB87003F9D76 /* Packing.m */,
+				E190CC0E1FEBCB96003F9D76 /* MealBuilder.h */,
+				E190CC0F1FEBCB96003F9D76 /* MealBuilder.m */,
+				E190CC111FEBCBAF003F9D76 /* Burger.h */,
+				E190CC121FEBCBAF003F9D76 /* Burger.m */,
+				E190CC141FEBCBD5003F9D76 /* Wrapper.h */,
+				E190CC151FEBCBD5003F9D76 /* Wrapper.m */,
+			);
+			path = "建造者模式";
+			sourceTree = "<group>";
+		};
+		E190CBB61FEBB0F0003F9D76 /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CBCA1FEBB26D003F9D76 /* Shape.h */,
+				E190CBCB1FEBB26D003F9D76 /* Shape.m */,
+				E190CBC11FEBB1BD003F9D76 /* Circle.h */,
+				E190CBC21FEBB1BD003F9D76 /* Circle.m */,
+				E190CBC41FEBB1CD003F9D76 /* Square.h */,
+				E190CBC51FEBB1CD003F9D76 /* Square.m */,
+				E190CBC71FEBB1D6003F9D76 /* Rectangle.h */,
+				E190CBC81FEBB1D6003F9D76 /* Rectangle.m */,
+				E190CBCD1FEBB2C1003F9D76 /* ShapeFactory.h */,
+				E190CBCE1FEBB2C1003F9D76 /* ShapeFactory.m */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		E190CBB71FEBB0F0003F9D76 /* 结构型 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CC231FEBD0CD003F9D76 /* 过滤器 */,
+				E190CBB81FEBB0F0003F9D76 /* 装饰器模式 */,
+				E190CBB91FEBB0F0003F9D76 /* 适配器模式 */,
+				E190CBBA1FEBB0F0003F9D76 /* 组合模式 */,
+				E190CBBB1FEBB0F0003F9D76 /* 代理模式 */,
+				E190CBBC1FEBB0F0003F9D76 /* 外观模式 */,
+				E190CBBD1FEBB0F0003F9D76 /* 桥接模式 */,
+				E190CBBE1FEBB0F0003F9D76 /* 享元模式 */,
+			);
+			path = "结构型";
+			sourceTree = "<group>";
+		};
+		E190CBB81FEBB0F0003F9D76 /* 装饰器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CC361FEBDADB003F9D76 /* ShapeDecorator.h */,
+				E190CC371FEBDADB003F9D76 /* ShapeDecorator.m */,
+				E190CC391FEBDB01003F9D76 /* RedShapeDecorator.h */,
+				E190CC3A1FEBDB01003F9D76 /* RedShapeDecorator.m */,
+			);
+			path = "装饰器模式";
+			sourceTree = "<group>";
+		};
+		E190CBB91FEBB0F0003F9D76 /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		E190CBBA1FEBB0F0003F9D76 /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "组合模式";
+			sourceTree = "<group>";
+		};
+		E190CBBB1FEBB0F0003F9D76 /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "代理模式";
+			sourceTree = "<group>";
+		};
+		E190CBBC1FEBB0F0003F9D76 /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CC3C1FEBDE4A003F9D76 /* ShapeMaker.h */,
+				E190CC3D1FEBDE4A003F9D76 /* ShapeMaker.m */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		E190CBBD1FEBB0F0003F9D76 /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		E190CBBE1FEBB0F0003F9D76 /* 享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "享元模式";
+			sourceTree = "<group>";
+		};
+		E190CBE61FEBC479003F9D76 /* abstractClass */ = {
+			isa = PBXGroup;
+			children = (
+				E190CBE81FEBC479003F9D76 /* ZDColor.h */,
+				E190CBEA1FEBC479003F9D76 /* ZDColor.m */,
+				E190CBE71FEBC479003F9D76 /* ZDShape.h */,
+				E190CBEB1FEBC479003F9D76 /* ZDShape.m */,
+				E190CBEC1FEBC479003F9D76 /* AbstractFactory.h */,
+				E190CBE91FEBC479003F9D76 /* AbstractFactory.m */,
+			);
+			path = abstractClass;
+			sourceTree = "<group>";
+		};
+		E190CBEE1FEBC479003F9D76 /* impClass */ = {
+			isa = PBXGroup;
+			children = (
+				E190CBF21FEBC479003F9D76 /* ZDColorFactory.h */,
+				E190CBEF1FEBC479003F9D76 /* ZDColorFactory.m */,
+				E190CBF01FEBC479003F9D76 /* ZDShapFactory.h */,
+				E190CBF11FEBC479003F9D76 /* ZDShapFactory.m */,
+				E190CBF91FEBC506003F9D76 /* ZDRed.h */,
+				E190CBFA1FEBC506003F9D76 /* ZDRed.m */,
+				E190CBFC1FEBC528003F9D76 /* ZDCircle.h */,
+				E190CBFD1FEBC528003F9D76 /* ZDCircle.m */,
+			);
+			path = impClass;
+			sourceTree = "<group>";
+		};
+		E190CC231FEBD0CD003F9D76 /* 过滤器 */ = {
+			isa = PBXGroup;
+			children = (
+				E190CC241FEBD28E003F9D76 /* Criteria.h */,
+				E190CC251FEBD28E003F9D76 /* Criteria.m */,
+				E190CC301FEBD3AD003F9D76 /* CriteriaMale.h */,
+				E190CC311FEBD3AD003F9D76 /* CriteriaMale.m */,
+				E190CC331FEBD74E003F9D76 /* CriteriaSingle.h */,
+				E190CC341FEBD74E003F9D76 /* CriteriaSingle.m */,
+				E190CC271FEBD2A8003F9D76 /* AndCriteria.h */,
+				E190CC281FEBD2A8003F9D76 /* AndCriteria.m */,
+				E190CC2A1FEBD2BE003F9D76 /* OrCriteria.h */,
+				E190CC2B1FEBD2BE003F9D76 /* OrCriteria.m */,
+				E190CC2D1FEBD2C7003F9D76 /* Person.h */,
+				E190CC2E1FEBD2C7003F9D76 /* Person.m */,
+			);
+			path = "过滤器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +708,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E190CC071FEBCB5C003F9D76 /* Meal.m in Sources */,
+				E190CC221FEBCE6C003F9D76 /* OpearationAdd.m in Sources */,
+				E190CBF71FEBC479003F9D76 /* ZDColorFactory.m in Sources */,
+				E190CC3B1FEBDB01003F9D76 /* RedShapeDecorator.m in Sources */,
+				E190CC321FEBD3AD003F9D76 /* CriteriaMale.m in Sources */,
+				E190CBD21FEBB31B003F9D76 /* DesignPatternTest.m in Sources */,
+				E190CC041FEBCB49003F9D76 /* Builder.m in Sources */,
 				C838F7581D3CDF5B002A3D71 /* ViewController.m in Sources */,
+				E190CBF31FEBC479003F9D76 /* AbstractFactory.m in Sources */,
+				E190CBF51FEBC479003F9D76 /* ZDShape.m in Sources */,
+				E190CC471FEBDF60003F9D76 /* StopState.m in Sources */,
+				E190CC161FEBCBD5003F9D76 /* Wrapper.m in Sources */,
+				E190CC0D1FEBCB87003F9D76 /* Packing.m in Sources */,
+				E190CBC31FEBB1BD003F9D76 /* Circle.m in Sources */,
+				E190CBCF1FEBB2C1003F9D76 /* ShapeFactory.m in Sources */,
+				E190CC131FEBCBAF003F9D76 /* Burger.m in Sources */,
 				C838F7551D3CDF5B002A3D71 /* AppDelegate.m in Sources */,
+				E190CC1F1FEBCE5A003F9D76 /* Context.m in Sources */,
+				E190CC291FEBD2A8003F9D76 /* AndCriteria.m in Sources */,
+				E190CC3E1FEBDE4A003F9D76 /* ShapeMaker.m in Sources */,
+				E190CC011FEBC8BA003F9D76 /* ShapCache.m in Sources */,
+				E190CC1C1FEBCE4B003F9D76 /* Strategy.m in Sources */,
+				E190CC381FEBDADB003F9D76 /* ShapeDecorator.m in Sources */,
+				E190CBFE1FEBC528003F9D76 /* ZDCircle.m in Sources */,
+				E190CC101FEBCB96003F9D76 /* MealBuilder.m in Sources */,
+				E190CC0A1FEBCB7C003F9D76 /* Item.m in Sources */,
+				E190CBC61FEBB1CD003F9D76 /* Square.m in Sources */,
+				E190CC191FEBCDE7003F9D76 /* SingleObject.m in Sources */,
+				E190CBF81FEBC479003F9D76 /* ZDShapFactory.m in Sources */,
+				E190CC2F1FEBD2C7003F9D76 /* Person.m in Sources */,
 				C838F7521D3CDF5B002A3D71 /* main.m in Sources */,
+				E190CC441FEBDF56003F9D76 /* StartState.m in Sources */,
+				E190CC261FEBD28E003F9D76 /* Criteria.m in Sources */,
+				E190CBFB1FEBC506003F9D76 /* ZDRed.m in Sources */,
+				E190CC2C1FEBD2BE003F9D76 /* OrCriteria.m in Sources */,
+				E190CC411FEBDF41003F9D76 /* State.m in Sources */,
+				E190CC351FEBD74E003F9D76 /* CriteriaSingle.m in Sources */,
+				E190CC4A1FEBDF75003F9D76 /* StateContext.m in Sources */,
+				E190CBC91FEBB1D6003F9D76 /* Rectangle.m in Sources */,
+				E190CBCC1FEBB26D003F9D76 /* Shape.m in Sources */,
+				E190CBF41FEBC479003F9D76 /* ZDColor.m in Sources */,
+				E190CBF61FEBC479003F9D76 /* FactoryProducer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +974,7 @@
 				C838F77C1D3CDF5B002A3D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C838F77D1D3CDF5B002A3D71 /* Build configuration list for PBXNativeTarget "ClassAPITestTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +983,7 @@
 				C838F77F1D3CDF5B002A3D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C838F7801D3CDF5B002A3D71 /* Build configuration list for PBXNativeTarget "ClassAPITestUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +992,7 @@
 				C838F7821D3CDF5B002A3D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
