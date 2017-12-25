@@ -7,10 +7,18 @@
 //
 
 #import "StartState.h"
-
+#import "StopState.h"
 @implementation StartState
--(void)doActionWithContext:(StateContext *)context {
+
+-(void)start {
     
+    NSLog(@"已经是开灯状态了 什么也不干");
+    
+}
+
+-(void)stop {
+    NSLog(@"关灯了");
+    _context.state = [[StopState alloc] initWithContext:_context];
     
 }
 @end

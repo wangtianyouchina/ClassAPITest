@@ -9,5 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "StateContext.h"
 @interface State : NSObject
--(void)doActionWithContext:(StateContext *)context;
+{
+    
+    StateContext *_context;
+}
+
+
+
+-(instancetype)initWithContext:(StateContext *)context;
+
+-(void)start;
+-(void)stop;
+
 @end

@@ -7,8 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "State.h"
+
+
+@class State;
 @interface StateContext : NSObject
--(instancetype)initWithState:(State *)state;
-@property(nonatomic,strong,readonly) State *state;
+
+//-(instancetype)initWithState:(State *)state;
+@property(nonatomic,strong) State *state;
+
+-(void)start;
+-(void)stop;
 @end

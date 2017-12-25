@@ -33,15 +33,51 @@
 #import "ShapeDecorator.h"
 #import "RedShapeDecorator.h"
 
+//状态设计模式
+#import "State.h"
+#import "StopState.h"
+#import "StateContext.h"
+
+//桥接模式
+#import "Platform.h"
+#import "Monkey.h"
+#import "WinPlatform.h"
+#import "IosMonkey.h"
+
 @implementation DesignPatternTest
 
 +(void)test {
+    
+    
+    // 状态设计模式
+    [self test_StateContext];
+    //桥接模式
+    [self test_Bridge];
     
     
     
     
     
 }
+
+// 桥接模式
++(void)test_Bridge {
+    WinPlatform *win = [[WinPlatform alloc] init];
+    win.mokey = [[IosMonkey alloc] init];
+    [win show];
+}
+// 状态设计模式
++(void)test_StateContext {
+    
+    StateContext *context = [[StateContext alloc] init];
+    
+    [context start];
+    
+    [context  stop];
+    
+    
+}
+
 
 +(void)test_ShapeDecorator {
     

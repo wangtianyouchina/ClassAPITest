@@ -9,5 +9,19 @@
 #import "State.h"
 
 @implementation State
-
+-(instancetype)initWithContext:(StateContext *)context {
+    self = [super init];
+    if(self) {
+        _context = context;
+    }
+    return self;
+}
+-(void)start {
+    
+}
+-(void)stop {
+    
+}
 @end
+
+
