@@ -44,6 +44,18 @@
 #import "WinPlatform.h"
 #import "IosMonkey.h"
 
+// 享元模式
+#import "FlyWeightShapFactory.h"
+
+//命令模式
+#import "MiPhtone.h"
+#import "TVOnCommand.h"
+#import "LightOnCommand.h"
+#import "TV.h"
+#import "Light.h"
+
+
+
 @implementation DesignPatternTest
 
 +(void)test {
@@ -53,9 +65,52 @@
     [self test_StateContext];
     //桥接模式
     [self test_Bridge];
+    //享元模式
+    [self test_FlyWeight];
+    //命令
+    [self test_Command];
     
     
     
+    
+    
+}
+
++(void)test_Command {
+    
+    MiPhtone *phone = [[MiPhtone alloc] init];
+    
+    TVOnCommand *command = [[TVOnCommand alloc] initWithTV:[[TV alloc] init]];
+    
+    LightOnCommand *lightOnCommand = [[LightOnCommand alloc] initWithLight:[[Light alloc]init]];
+    [phone setCommnad:command];
+    [phone setCommnad:lightOnCommand];
+    
+    
+    // 先开电视 再开灯
+    [phone onButtonWasPushed:0];
+    [phone onButtonWasPushed:1];
+    
+    
+    
+    
+    
+}
++(void)test_FlyWeight {
+    
+    FlyWeightShapFactory *facory = [[FlyWeightShapFactory alloc] init];
+    Shape *red = [facory getCircle:@"red"];
+    Shape *green = [facory getCircle:@"green"];
+    Shape *blue = [facory getCircle:@"blue"];
+    Shape *wight = [facory getCircle:@"wight"];
+    
+    Shape *newRed = [facory getCircle:@"red"];
+    
+    if (red == newRed) {
+        NSLog(@"复用了之前的redshape");
+    }
+    
+
     
     
 }

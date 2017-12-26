@@ -61,6 +61,14 @@
 		E190CC561FF0AB1B003F9D76 /* MacPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC551FF0AB1B003F9D76 /* MacPlatform.m */; };
 		E190CC591FF0AB2A003F9D76 /* AndroidMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC581FF0AB2A003F9D76 /* AndroidMonkey.m */; };
 		E190CC5C1FF0AB31003F9D76 /* IosMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC5B1FF0AB31003F9D76 /* IosMonkey.m */; };
+		E199C33E1FF1DC3D00F2DE0A /* FlyWeightShapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C33D1FF1DC3D00F2DE0A /* FlyWeightShapFactory.m */; };
+		E199C3411FF1E21600F2DE0A /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3401FF1E21600F2DE0A /* Command.m */; };
+		E199C3441FF1E28B00F2DE0A /* TVOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3431FF1E28B00F2DE0A /* TVOnCommand.m */; };
+		E199C3471FF1E29C00F2DE0A /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3461FF1E29C00F2DE0A /* LightOnCommand.m */; };
+		E199C34A1FF1E2CA00F2DE0A /* HouseHoldAppliances.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3491FF1E2CA00F2DE0A /* HouseHoldAppliances.m */; };
+		E199C34D1FF1E2DB00F2DE0A /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C34C1FF1E2DB00F2DE0A /* TV.m */; };
+		E199C3501FF1E2E400F2DE0A /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C34F1FF1E2E400F2DE0A /* Light.m */; };
+		E199C3531FF1E2F600F2DE0A /* MiPhtone.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3521FF1E2F600F2DE0A /* MiPhtone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +196,22 @@
 		E190CC581FF0AB2A003F9D76 /* AndroidMonkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidMonkey.m; sourceTree = "<group>"; };
 		E190CC5A1FF0AB31003F9D76 /* IosMonkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosMonkey.h; sourceTree = "<group>"; };
 		E190CC5B1FF0AB31003F9D76 /* IosMonkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosMonkey.m; sourceTree = "<group>"; };
+		E199C33C1FF1DC3D00F2DE0A /* FlyWeightShapFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyWeightShapFactory.h; sourceTree = "<group>"; };
+		E199C33D1FF1DC3D00F2DE0A /* FlyWeightShapFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyWeightShapFactory.m; sourceTree = "<group>"; };
+		E199C33F1FF1E21600F2DE0A /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		E199C3401FF1E21600F2DE0A /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		E199C3421FF1E28B00F2DE0A /* TVOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVOnCommand.h; sourceTree = "<group>"; };
+		E199C3431FF1E28B00F2DE0A /* TVOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVOnCommand.m; sourceTree = "<group>"; };
+		E199C3451FF1E29C00F2DE0A /* LightOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		E199C3461FF1E29C00F2DE0A /* LightOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		E199C3481FF1E2CA00F2DE0A /* HouseHoldAppliances.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseHoldAppliances.h; sourceTree = "<group>"; };
+		E199C3491FF1E2CA00F2DE0A /* HouseHoldAppliances.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseHoldAppliances.m; sourceTree = "<group>"; };
+		E199C34B1FF1E2DB00F2DE0A /* TV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		E199C34C1FF1E2DB00F2DE0A /* TV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
+		E199C34E1FF1E2E400F2DE0A /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		E199C34F1FF1E2E400F2DE0A /* Light.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		E199C3511FF1E2F600F2DE0A /* MiPhtone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiPhtone.h; sourceTree = "<group>"; };
+		E199C3521FF1E2F600F2DE0A /* MiPhtone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiPhtone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +356,20 @@
 		E190CBA81FEBB0F0003F9D76 /* 命令模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E199C33F1FF1E21600F2DE0A /* Command.h */,
+				E199C3401FF1E21600F2DE0A /* Command.m */,
+				E199C3421FF1E28B00F2DE0A /* TVOnCommand.h */,
+				E199C3431FF1E28B00F2DE0A /* TVOnCommand.m */,
+				E199C3451FF1E29C00F2DE0A /* LightOnCommand.h */,
+				E199C3461FF1E29C00F2DE0A /* LightOnCommand.m */,
+				E199C3481FF1E2CA00F2DE0A /* HouseHoldAppliances.h */,
+				E199C3491FF1E2CA00F2DE0A /* HouseHoldAppliances.m */,
+				E199C34B1FF1E2DB00F2DE0A /* TV.h */,
+				E199C34C1FF1E2DB00F2DE0A /* TV.m */,
+				E199C34E1FF1E2E400F2DE0A /* Light.h */,
+				E199C34F1FF1E2E400F2DE0A /* Light.m */,
+				E199C3511FF1E2F600F2DE0A /* MiPhtone.h */,
+				E199C3521FF1E2F600F2DE0A /* MiPhtone.m */,
 			);
 			path = "命令模式";
 			sourceTree = "<group>";
@@ -557,6 +595,8 @@
 		E190CBBE1FEBB0F0003F9D76 /* 享元模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E199C33C1FF1DC3D00F2DE0A /* FlyWeightShapFactory.h */,
+				E199C33D1FF1DC3D00F2DE0A /* FlyWeightShapFactory.m */,
 			);
 			path = "享元模式";
 			sourceTree = "<group>";
@@ -675,6 +715,7 @@
 				TargetAttributes = {
 					C838F74C1D3CDF5B002A3D71 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 56DB234WRR;
 					};
 					C838F7651D3CDF5B002A3D71 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -745,19 +786,25 @@
 				E190CC321FEBD3AD003F9D76 /* CriteriaMale.m in Sources */,
 				E190CBD21FEBB31B003F9D76 /* DesignPatternTest.m in Sources */,
 				E190CC041FEBCB49003F9D76 /* Builder.m in Sources */,
+				E199C34D1FF1E2DB00F2DE0A /* TV.m in Sources */,
 				C838F7581D3CDF5B002A3D71 /* ViewController.m in Sources */,
+				E199C34A1FF1E2CA00F2DE0A /* HouseHoldAppliances.m in Sources */,
 				E190CBF31FEBC479003F9D76 /* AbstractFactory.m in Sources */,
+				E199C3501FF1E2E400F2DE0A /* Light.m in Sources */,
 				E190CC591FF0AB2A003F9D76 /* AndroidMonkey.m in Sources */,
 				E190CBF51FEBC479003F9D76 /* ZDShape.m in Sources */,
 				E190CC471FEBDF60003F9D76 /* StopState.m in Sources */,
 				E190CC161FEBCBD5003F9D76 /* Wrapper.m in Sources */,
 				E190CC0D1FEBCB87003F9D76 /* Packing.m in Sources */,
+				E199C3441FF1E28B00F2DE0A /* TVOnCommand.m in Sources */,
 				E190CBC31FEBB1BD003F9D76 /* Circle.m in Sources */,
 				E190CBCF1FEBB2C1003F9D76 /* ShapeFactory.m in Sources */,
 				E190CC131FEBCBAF003F9D76 /* Burger.m in Sources */,
 				C838F7551D3CDF5B002A3D71 /* AppDelegate.m in Sources */,
 				E190CC1F1FEBCE5A003F9D76 /* Context.m in Sources */,
+				E199C3411FF1E21600F2DE0A /* Command.m in Sources */,
 				E190CC291FEBD2A8003F9D76 /* AndCriteria.m in Sources */,
+				E199C3531FF1E2F600F2DE0A /* MiPhtone.m in Sources */,
 				E190CC3E1FEBDE4A003F9D76 /* ShapeMaker.m in Sources */,
 				E190CC011FEBC8BA003F9D76 /* ShapCache.m in Sources */,
 				E190CC1C1FEBCE4B003F9D76 /* Strategy.m in Sources */,
@@ -779,12 +826,14 @@
 				E190CC2C1FEBD2BE003F9D76 /* OrCriteria.m in Sources */,
 				E190CC411FEBDF41003F9D76 /* State.m in Sources */,
 				E190CC351FEBD74E003F9D76 /* CriteriaSingle.m in Sources */,
+				E199C3471FF1E29C00F2DE0A /* LightOnCommand.m in Sources */,
 				E190CC4A1FEBDF75003F9D76 /* StateContext.m in Sources */,
 				E190CBC91FEBB1D6003F9D76 /* Rectangle.m in Sources */,
 				E190CBCC1FEBB26D003F9D76 /* Shape.m in Sources */,
 				E190CC561FF0AB1B003F9D76 /* MacPlatform.m in Sources */,
 				E190CBF41FEBC479003F9D76 /* ZDColor.m in Sources */,
 				E190CC501FF0AAC1003F9D76 /* Monkey.m in Sources */,
+				E199C33E1FF1DC3D00F2DE0A /* FlyWeightShapFactory.m in Sources */,
 				E190CBF61FEBC479003F9D76 /* FactoryProducer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -927,9 +976,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56DB234WRR;
 				INFOPLIST_FILE = ClassAPITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.ClassAPITest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidian.ClassAPITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -938,9 +988,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56DB234WRR;
 				INFOPLIST_FILE = ClassAPITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.ClassAPITest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidian.ClassAPITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

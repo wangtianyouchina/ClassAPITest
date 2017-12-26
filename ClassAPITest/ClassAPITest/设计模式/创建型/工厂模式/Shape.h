@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Shape : NSObject
+@property(nonatomic,strong) NSString *colorName;
 -(void)draw;
 
 @end
