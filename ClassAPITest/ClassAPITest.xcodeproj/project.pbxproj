@@ -69,6 +69,17 @@
 		E199C34D1FF1E2DB00F2DE0A /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C34C1FF1E2DB00F2DE0A /* TV.m */; };
 		E199C3501FF1E2E400F2DE0A /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C34F1FF1E2E400F2DE0A /* Light.m */; };
 		E199C3531FF1E2F600F2DE0A /* MiPhtone.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3521FF1E2F600F2DE0A /* MiPhtone.m */; };
+		E199C3561FF4840200F2DE0A /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3551FF4840200F2DE0A /* Subject.m */; };
+		E199C3591FF4840E00F2DE0A /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3581FF4840E00F2DE0A /* Observer.m */; };
+		E199C35C1FF488CD00F2DE0A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C35B1FF488CD00F2DE0A /* User.m */; };
+		E199C35F1FF488D600F2DE0A /* ChatRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C35E1FF488D600F2DE0A /* ChatRoom.m */; };
+		E199C3621FF48B2E00F2DE0A /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3611FF48B2E00F2DE0A /* Originator.m */; };
+		E199C3651FF48B3B00F2DE0A /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3641FF48B3B00F2DE0A /* Memento.m */; };
+		E199C3681FF48B4700F2DE0A /* CareTaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3671FF48B4700F2DE0A /* CareTaker.m */; };
+		E199C36B1FF4925200F2DE0A /* AbstractLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C36A1FF4925200F2DE0A /* AbstractLogger.m */; };
+		E199C36E1FF4939300F2DE0A /* ConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C36D1FF4939300F2DE0A /* ConsoleLogger.m */; };
+		E199C3711FF4939D00F2DE0A /* ErrorLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3701FF4939D00F2DE0A /* ErrorLogger.m */; };
+		E199C3741FF493A600F2DE0A /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3731FF493A600F2DE0A /* FileLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,6 +223,28 @@
 		E199C34F1FF1E2E400F2DE0A /* Light.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
 		E199C3511FF1E2F600F2DE0A /* MiPhtone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiPhtone.h; sourceTree = "<group>"; };
 		E199C3521FF1E2F600F2DE0A /* MiPhtone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiPhtone.m; sourceTree = "<group>"; };
+		E199C3541FF4840200F2DE0A /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		E199C3551FF4840200F2DE0A /* Subject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		E199C3571FF4840E00F2DE0A /* Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		E199C3581FF4840E00F2DE0A /* Observer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+		E199C35A1FF488CD00F2DE0A /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E199C35B1FF488CD00F2DE0A /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		E199C35D1FF488D600F2DE0A /* ChatRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatRoom.h; sourceTree = "<group>"; };
+		E199C35E1FF488D600F2DE0A /* ChatRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatRoom.m; sourceTree = "<group>"; };
+		E199C3601FF48B2E00F2DE0A /* Originator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Originator.h; sourceTree = "<group>"; };
+		E199C3611FF48B2E00F2DE0A /* Originator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Originator.m; sourceTree = "<group>"; };
+		E199C3631FF48B3B00F2DE0A /* Memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		E199C3641FF48B3B00F2DE0A /* Memento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
+		E199C3661FF48B4700F2DE0A /* CareTaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CareTaker.h; sourceTree = "<group>"; };
+		E199C3671FF48B4700F2DE0A /* CareTaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CareTaker.m; sourceTree = "<group>"; };
+		E199C3691FF4925200F2DE0A /* AbstractLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractLogger.h; sourceTree = "<group>"; };
+		E199C36A1FF4925200F2DE0A /* AbstractLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractLogger.m; sourceTree = "<group>"; };
+		E199C36C1FF4939300F2DE0A /* ConsoleLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleLogger.h; sourceTree = "<group>"; };
+		E199C36D1FF4939300F2DE0A /* ConsoleLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleLogger.m; sourceTree = "<group>"; };
+		E199C36F1FF4939D00F2DE0A /* ErrorLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorLogger.h; sourceTree = "<group>"; };
+		E199C3701FF4939D00F2DE0A /* ErrorLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErrorLogger.m; sourceTree = "<group>"; };
+		E199C3721FF493A600F2DE0A /* FileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLogger.h; sourceTree = "<group>"; };
+		E199C3731FF493A600F2DE0A /* FileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,6 +417,10 @@
 		E190CBAA1FEBB0F0003F9D76 /* 中介者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E199C35A1FF488CD00F2DE0A /* User.h */,
+				E199C35B1FF488CD00F2DE0A /* User.m */,
+				E199C35D1FF488D600F2DE0A /* ChatRoom.h */,
+				E199C35E1FF488D600F2DE0A /* ChatRoom.m */,
 			);
 			path = "中介者模式";
 			sourceTree = "<group>";
@@ -391,6 +428,14 @@
 		E190CBAB1FEBB0F0003F9D76 /* 责任链模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E199C3691FF4925200F2DE0A /* AbstractLogger.h */,
+				E199C36A1FF4925200F2DE0A /* AbstractLogger.m */,
+				E199C36C1FF4939300F2DE0A /* ConsoleLogger.h */,
+				E199C36D1FF4939300F2DE0A /* ConsoleLogger.m */,
+				E199C36F1FF4939D00F2DE0A /* ErrorLogger.h */,
+				E199C3701FF4939D00F2DE0A /* ErrorLogger.m */,
+				E199C3721FF493A600F2DE0A /* FileLogger.h */,
+				E199C3731FF493A600F2DE0A /* FileLogger.m */,
 			);
 			path = "责任链模式";
 			sourceTree = "<group>";
@@ -420,6 +465,12 @@
 		E190CBAE1FEBB0F0003F9D76 /* 备忘录模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E199C3601FF48B2E00F2DE0A /* Originator.h */,
+				E199C3611FF48B2E00F2DE0A /* Originator.m */,
+				E199C3631FF48B3B00F2DE0A /* Memento.h */,
+				E199C3641FF48B3B00F2DE0A /* Memento.m */,
+				E199C3661FF48B4700F2DE0A /* CareTaker.h */,
+				E199C3671FF48B4700F2DE0A /* CareTaker.m */,
 			);
 			path = "备忘录模式";
 			sourceTree = "<group>";
@@ -434,6 +485,10 @@
 		E190CBB01FEBB0F0003F9D76 /* 观察者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E199C3541FF4840200F2DE0A /* Subject.h */,
+				E199C3551FF4840200F2DE0A /* Subject.m */,
+				E199C3571FF4840E00F2DE0A /* Observer.h */,
+				E199C3581FF4840E00F2DE0A /* Observer.m */,
 			);
 			path = "观察者模式";
 			sourceTree = "<group>";
@@ -793,6 +848,9 @@
 				E199C3501FF1E2E400F2DE0A /* Light.m in Sources */,
 				E190CC591FF0AB2A003F9D76 /* AndroidMonkey.m in Sources */,
 				E190CBF51FEBC479003F9D76 /* ZDShape.m in Sources */,
+				E199C3561FF4840200F2DE0A /* Subject.m in Sources */,
+				E199C3651FF48B3B00F2DE0A /* Memento.m in Sources */,
+				E199C35C1FF488CD00F2DE0A /* User.m in Sources */,
 				E190CC471FEBDF60003F9D76 /* StopState.m in Sources */,
 				E190CC161FEBCBD5003F9D76 /* Wrapper.m in Sources */,
 				E190CC0D1FEBCB87003F9D76 /* Packing.m in Sources */,
@@ -805,6 +863,7 @@
 				E199C3411FF1E21600F2DE0A /* Command.m in Sources */,
 				E190CC291FEBD2A8003F9D76 /* AndCriteria.m in Sources */,
 				E199C3531FF1E2F600F2DE0A /* MiPhtone.m in Sources */,
+				E199C36E1FF4939300F2DE0A /* ConsoleLogger.m in Sources */,
 				E190CC3E1FEBDE4A003F9D76 /* ShapeMaker.m in Sources */,
 				E190CC011FEBC8BA003F9D76 /* ShapCache.m in Sources */,
 				E190CC1C1FEBCE4B003F9D76 /* Strategy.m in Sources */,
@@ -812,6 +871,7 @@
 				E190CBFE1FEBC528003F9D76 /* ZDCircle.m in Sources */,
 				E190CC101FEBCB96003F9D76 /* MealBuilder.m in Sources */,
 				E190CC531FF0AB11003F9D76 /* WinPlatform.m in Sources */,
+				E199C3681FF48B4700F2DE0A /* CareTaker.m in Sources */,
 				E190CC0A1FEBCB7C003F9D76 /* Item.m in Sources */,
 				E190CBC61FEBB1CD003F9D76 /* Square.m in Sources */,
 				E190CC191FEBCDE7003F9D76 /* SingleObject.m in Sources */,
@@ -821,20 +881,26 @@
 				E190CC441FEBDF56003F9D76 /* StartState.m in Sources */,
 				E190CC261FEBD28E003F9D76 /* Criteria.m in Sources */,
 				E190CC4D1FF0AAB9003F9D76 /* Platform.m in Sources */,
+				E199C3741FF493A600F2DE0A /* FileLogger.m in Sources */,
 				E190CC5C1FF0AB31003F9D76 /* IosMonkey.m in Sources */,
 				E190CBFB1FEBC506003F9D76 /* ZDRed.m in Sources */,
 				E190CC2C1FEBD2BE003F9D76 /* OrCriteria.m in Sources */,
 				E190CC411FEBDF41003F9D76 /* State.m in Sources */,
+				E199C3591FF4840E00F2DE0A /* Observer.m in Sources */,
 				E190CC351FEBD74E003F9D76 /* CriteriaSingle.m in Sources */,
 				E199C3471FF1E29C00F2DE0A /* LightOnCommand.m in Sources */,
 				E190CC4A1FEBDF75003F9D76 /* StateContext.m in Sources */,
 				E190CBC91FEBB1D6003F9D76 /* Rectangle.m in Sources */,
 				E190CBCC1FEBB26D003F9D76 /* Shape.m in Sources */,
+				E199C3621FF48B2E00F2DE0A /* Originator.m in Sources */,
 				E190CC561FF0AB1B003F9D76 /* MacPlatform.m in Sources */,
 				E190CBF41FEBC479003F9D76 /* ZDColor.m in Sources */,
+				E199C3711FF4939D00F2DE0A /* ErrorLogger.m in Sources */,
 				E190CC501FF0AAC1003F9D76 /* Monkey.m in Sources */,
 				E199C33E1FF1DC3D00F2DE0A /* FlyWeightShapFactory.m in Sources */,
+				E199C35F1FF488D600F2DE0A /* ChatRoom.m in Sources */,
 				E190CBF61FEBC479003F9D76 /* FactoryProducer.m in Sources */,
+				E199C36B1FF4925200F2DE0A /* AbstractLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

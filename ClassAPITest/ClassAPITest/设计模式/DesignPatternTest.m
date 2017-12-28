@@ -54,7 +54,19 @@
 #import "TV.h"
 #import "Light.h"
 
+//中介者模式
+#import "User.h"
+#import "ChatRoom.h"
 
+//备忘录
+#import "Originator.h"
+#import "Memento.h"
+#import "CareTaker.h"
+//责任链
+#import "AbstractLogger.h"
+#import "ConsoleLogger.h"
+#import "ErrorLogger.h"
+#import "FileLogger.h"
 
 @implementation DesignPatternTest
 
@@ -70,11 +82,67 @@
     //命令
     [self test_Command];
     
+    [self test_Mediator];
     
+    [self test_Memento];
     
-    
+    [self test_ChainOfResponsibility];
     
 }
+
+//责任链
++(void)test_ChainOfResponsibility {
+    
+    ConsoleLogger *console = [[ConsoleLogger alloc] initWithLevel:1 nextLogger:nil];
+    ErrorLogger *error = [[ErrorLogger alloc] initWithLevel:2 nextLogger:nil];
+    FileLogger *file = [[FileLogger alloc] initWithLevel:3 nextLogger:nil];
+    
+    console.nextLogger = error;
+    error.nextLogger =file;
+    
+    
+    [console logMessage:@"error 错误信息" level:2];
+    
+}
+
+// 备忘录
++(void)test_Memento {
+    
+    Originator *originator = [[Originator alloc] init];
+    CareTaker *taker = [[CareTaker alloc] init];
+    
+    originator.state = @"state 1";
+    originator.state = @"state 2";
+    [taker addMemento:originator.saveStateToMementTo];
+    originator.state = @"state 3";
+    [taker addMemento:originator.saveStateToMementTo];
+    originator.state = @"state 4";
+    
+    NSLog(@"current State = %@ ",originator.state);
+    [originator setStateFromMemento:[taker getMementoAtIndex:0]];
+    NSLog(@"current State = %@ ",originator.state);
+    [originator setStateFromMemento:[taker getMementoAtIndex:1]];
+    NSLog(@"current State = %@ ",originator.state);
+
+    
+}
+
++(void)test_Mediator {
+    
+    User *xiaoming = [[User alloc] init];
+    xiaoming.name = @"小明";
+    
+    User *xiaoHong = [[User alloc] init];
+    xiaoHong.name = @"小红";
+    
+    
+    [xiaoming sendMessage:@"小红 你好"];
+    
+    [xiaoHong sendMessage:@"小明 你好"];
+
+    
+}
+
 
 +(void)test_Command {
     
