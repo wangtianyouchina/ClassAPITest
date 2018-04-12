@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DesignPatternTest.h"
-
+#import "DataStructureTest.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [DesignPatternTest test];
+    // 设计模式
+//    [DesignPatternTest test];
+    [DataStructureTest test];
+    
     return YES;
 }
 

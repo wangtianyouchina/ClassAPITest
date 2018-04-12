@@ -80,6 +80,9 @@
 		E199C36E1FF4939300F2DE0A /* ConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C36D1FF4939300F2DE0A /* ConsoleLogger.m */; };
 		E199C3711FF4939D00F2DE0A /* ErrorLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3701FF4939D00F2DE0A /* ErrorLogger.m */; };
 		E199C3741FF493A600F2DE0A /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3731FF493A600F2DE0A /* FileLogger.m */; };
+		E1DBDE84207F028700CB8A79 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE82207F028700CB8A79 /* BinaryTree.m */; };
+		E1DBDE8D207F174E00CB8A79 /* DataStructureTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE8C207F174E00CB8A79 /* DataStructureTest.m */; };
+		E1DBDE8F207F409600CB8A79 /* BinaryTreeTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE8E207F409500CB8A79 /* BinaryTreeTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,6 +248,11 @@
 		E199C3701FF4939D00F2DE0A /* ErrorLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErrorLogger.m; sourceTree = "<group>"; };
 		E199C3721FF493A600F2DE0A /* FileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLogger.h; sourceTree = "<group>"; };
 		E199C3731FF493A600F2DE0A /* FileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLogger.m; sourceTree = "<group>"; };
+		E1DBDE82207F028700CB8A79 /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		E1DBDE83207F028700CB8A79 /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		E1DBDE8B207F174E00CB8A79 /* DataStructureTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructureTest.h; sourceTree = "<group>"; };
+		E1DBDE8C207F174E00CB8A79 /* DataStructureTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStructureTest.m; sourceTree = "<group>"; };
+		E1DBDE8E207F409500CB8A79 /* BinaryTreeTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +305,7 @@
 			children = (
 				C838F7531D3CDF5B002A3D71 /* AppDelegate.h */,
 				C838F7541D3CDF5B002A3D71 /* AppDelegate.m */,
+				E1DBDE7D207F020700CB8A79 /* 数据结构 */,
 				E190CBA41FEBB0F0003F9D76 /* 设计模式 */,
 				C838F7561D3CDF5B002A3D71 /* ViewController.h */,
 				C838F7571D3CDF5B002A3D71 /* ViewController.m */,
@@ -322,6 +331,7 @@
 			children = (
 				C838F76A1D3CDF5B002A3D71 /* ClassAPITestTests.m */,
 				C838F7831D3CDF8D002A3D71 /* NSArrayTestCase.m */,
+				E1DBDE8E207F409500CB8A79 /* BinaryTreeTestCase.m */,
 				C838F76C1D3CDF5B002A3D71 /* Info.plist */,
 			);
 			path = ClassAPITestTests;
@@ -703,6 +713,25 @@
 			path = "过滤器";
 			sourceTree = "<group>";
 		};
+		E1DBDE7D207F020700CB8A79 /* 数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+				E1DBDE81207F028700CB8A79 /* 二叉树 */,
+				E1DBDE8B207F174E00CB8A79 /* DataStructureTest.h */,
+				E1DBDE8C207F174E00CB8A79 /* DataStructureTest.m */,
+			);
+			path = "数据结构";
+			sourceTree = "<group>";
+		};
+		E1DBDE81207F028700CB8A79 /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				E1DBDE83207F028700CB8A79 /* BinaryTree.h */,
+				E1DBDE82207F028700CB8A79 /* BinaryTree.m */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -878,6 +907,7 @@
 				E190CBF81FEBC479003F9D76 /* ZDShapFactory.m in Sources */,
 				E190CC2F1FEBD2C7003F9D76 /* Person.m in Sources */,
 				C838F7521D3CDF5B002A3D71 /* main.m in Sources */,
+				E1DBDE84207F028700CB8A79 /* BinaryTree.m in Sources */,
 				E190CC441FEBDF56003F9D76 /* StartState.m in Sources */,
 				E190CC261FEBD28E003F9D76 /* Criteria.m in Sources */,
 				E190CC4D1FF0AAB9003F9D76 /* Platform.m in Sources */,
@@ -898,6 +928,7 @@
 				E199C3711FF4939D00F2DE0A /* ErrorLogger.m in Sources */,
 				E190CC501FF0AAC1003F9D76 /* Monkey.m in Sources */,
 				E199C33E1FF1DC3D00F2DE0A /* FlyWeightShapFactory.m in Sources */,
+				E1DBDE8D207F174E00CB8A79 /* DataStructureTest.m in Sources */,
 				E199C35F1FF488D600F2DE0A /* ChatRoom.m in Sources */,
 				E190CBF61FEBC479003F9D76 /* FactoryProducer.m in Sources */,
 				E199C36B1FF4925200F2DE0A /* AbstractLogger.m in Sources */,
@@ -908,6 +939,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DBDE8F207F409600CB8A79 /* BinaryTreeTestCase.m in Sources */,
 				C838F7841D3CDF8D002A3D71 /* NSArrayTestCase.m in Sources */,
 				C838F76B1D3CDF5B002A3D71 /* ClassAPITestTests.m in Sources */,
 			);
