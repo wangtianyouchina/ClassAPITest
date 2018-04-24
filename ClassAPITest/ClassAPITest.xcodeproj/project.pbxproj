@@ -80,6 +80,8 @@
 		E199C36E1FF4939300F2DE0A /* ConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C36D1FF4939300F2DE0A /* ConsoleLogger.m */; };
 		E199C3711FF4939D00F2DE0A /* ErrorLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3701FF4939D00F2DE0A /* ErrorLogger.m */; };
 		E199C3741FF493A600F2DE0A /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3731FF493A600F2DE0A /* FileLogger.m */; };
+		E1B73E1920897AAC00CCA774 /* WTYSortAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B73E1820897AAC00CCA774 /* WTYSortAlgorithm.m */; };
+		E1B73E1B2089835A00CCA774 /* WTYSortAlgorithmTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B73E1A2089835A00CCA774 /* WTYSortAlgorithmTestCase.m */; };
 		E1DBDE84207F028700CB8A79 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE82207F028700CB8A79 /* BinaryTree.m */; };
 		E1DBDE8D207F174E00CB8A79 /* DataStructureTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE8C207F174E00CB8A79 /* DataStructureTest.m */; };
 		E1DBDE8F207F409600CB8A79 /* BinaryTreeTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE8E207F409500CB8A79 /* BinaryTreeTestCase.m */; };
@@ -248,6 +250,9 @@
 		E199C3701FF4939D00F2DE0A /* ErrorLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErrorLogger.m; sourceTree = "<group>"; };
 		E199C3721FF493A600F2DE0A /* FileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLogger.h; sourceTree = "<group>"; };
 		E199C3731FF493A600F2DE0A /* FileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLogger.m; sourceTree = "<group>"; };
+		E1B73E1720897AAC00CCA774 /* WTYSortAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTYSortAlgorithm.h; sourceTree = "<group>"; };
+		E1B73E1820897AAC00CCA774 /* WTYSortAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTYSortAlgorithm.m; sourceTree = "<group>"; };
+		E1B73E1A2089835A00CCA774 /* WTYSortAlgorithmTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTYSortAlgorithmTestCase.m; sourceTree = "<group>"; };
 		E1DBDE82207F028700CB8A79 /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
 		E1DBDE83207F028700CB8A79 /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		E1DBDE8B207F174E00CB8A79 /* DataStructureTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructureTest.h; sourceTree = "<group>"; };
@@ -305,6 +310,7 @@
 			children = (
 				C838F7531D3CDF5B002A3D71 /* AppDelegate.h */,
 				C838F7541D3CDF5B002A3D71 /* AppDelegate.m */,
+				E1B73E1420897A3E00CCA774 /* 算法 */,
 				E1DBDE7D207F020700CB8A79 /* 数据结构 */,
 				E190CBA41FEBB0F0003F9D76 /* 设计模式 */,
 				C838F7561D3CDF5B002A3D71 /* ViewController.h */,
@@ -332,6 +338,7 @@
 				C838F76A1D3CDF5B002A3D71 /* ClassAPITestTests.m */,
 				C838F7831D3CDF8D002A3D71 /* NSArrayTestCase.m */,
 				E1DBDE8E207F409500CB8A79 /* BinaryTreeTestCase.m */,
+				E1B73E1A2089835A00CCA774 /* WTYSortAlgorithmTestCase.m */,
 				C838F76C1D3CDF5B002A3D71 /* Info.plist */,
 			);
 			path = ClassAPITestTests;
@@ -713,6 +720,23 @@
 			path = "过滤器";
 			sourceTree = "<group>";
 		};
+		E1B73E1420897A3E00CCA774 /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				E1B73E1520897A3E00CCA774 /* 排序算法 */,
+			);
+			path = "算法";
+			sourceTree = "<group>";
+		};
+		E1B73E1520897A3E00CCA774 /* 排序算法 */ = {
+			isa = PBXGroup;
+			children = (
+				E1B73E1720897AAC00CCA774 /* WTYSortAlgorithm.h */,
+				E1B73E1820897AAC00CCA774 /* WTYSortAlgorithm.m */,
+			);
+			path = "排序算法";
+			sourceTree = "<group>";
+		};
 		E1DBDE7D207F020700CB8A79 /* 数据结构 */ = {
 			isa = PBXGroup;
 			children = (
@@ -871,6 +895,7 @@
 				E190CBD21FEBB31B003F9D76 /* DesignPatternTest.m in Sources */,
 				E190CC041FEBCB49003F9D76 /* Builder.m in Sources */,
 				E199C34D1FF1E2DB00F2DE0A /* TV.m in Sources */,
+				E1B73E1920897AAC00CCA774 /* WTYSortAlgorithm.m in Sources */,
 				C838F7581D3CDF5B002A3D71 /* ViewController.m in Sources */,
 				E199C34A1FF1E2CA00F2DE0A /* HouseHoldAppliances.m in Sources */,
 				E190CBF31FEBC479003F9D76 /* AbstractFactory.m in Sources */,
@@ -939,6 +964,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B73E1B2089835A00CCA774 /* WTYSortAlgorithmTestCase.m in Sources */,
 				E1DBDE8F207F409600CB8A79 /* BinaryTreeTestCase.m in Sources */,
 				C838F7841D3CDF8D002A3D71 /* NSArrayTestCase.m in Sources */,
 				C838F76B1D3CDF5B002A3D71 /* ClassAPITestTests.m in Sources */,
