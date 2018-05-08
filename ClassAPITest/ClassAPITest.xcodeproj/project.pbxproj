@@ -80,6 +80,12 @@
 		E199C36E1FF4939300F2DE0A /* ConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C36D1FF4939300F2DE0A /* ConsoleLogger.m */; };
 		E199C3711FF4939D00F2DE0A /* ErrorLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3701FF4939D00F2DE0A /* ErrorLogger.m */; };
 		E199C3741FF493A600F2DE0A /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3731FF493A600F2DE0A /* FileLogger.m */; };
+		E199EA1B20A0538400A1DD37 /* DependenceInversion.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA1A20A0538400A1DD37 /* DependenceInversion.m */; };
+		E199EA1E20A05D2600A1DD37 /* OpenClosed.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA1D20A05D2600A1DD37 /* OpenClosed.m */; };
+		E199EA2120A13E3700A1DD37 /* InterfaceSegregation.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA2020A13E3700A1DD37 /* InterfaceSegregation.m */; };
+		E199EA2420A13EC300A1DD37 /* SingleResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA2320A13EC300A1DD37 /* SingleResponsibility.m */; };
+		E199EA2720A1497100A1DD37 /* LiskovSubstitution.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA2620A1497100A1DD37 /* LiskovSubstitution.m */; };
+		E199EA2A20A14AFA00A1DD37 /* LawOfDemeter.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA2920A14AFA00A1DD37 /* LawOfDemeter.m */; };
 		E1B73E1920897AAC00CCA774 /* WTYSortAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B73E1820897AAC00CCA774 /* WTYSortAlgorithm.m */; };
 		E1B73E1B2089835A00CCA774 /* WTYSortAlgorithmTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B73E1A2089835A00CCA774 /* WTYSortAlgorithmTestCase.m */; };
 		E1DBDE84207F028700CB8A79 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE82207F028700CB8A79 /* BinaryTree.m */; };
@@ -250,6 +256,18 @@
 		E199C3701FF4939D00F2DE0A /* ErrorLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErrorLogger.m; sourceTree = "<group>"; };
 		E199C3721FF493A600F2DE0A /* FileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLogger.h; sourceTree = "<group>"; };
 		E199C3731FF493A600F2DE0A /* FileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLogger.m; sourceTree = "<group>"; };
+		E199EA1920A0538400A1DD37 /* DependenceInversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DependenceInversion.h; sourceTree = "<group>"; };
+		E199EA1A20A0538400A1DD37 /* DependenceInversion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DependenceInversion.m; sourceTree = "<group>"; };
+		E199EA1C20A05D2600A1DD37 /* OpenClosed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenClosed.h; sourceTree = "<group>"; };
+		E199EA1D20A05D2600A1DD37 /* OpenClosed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenClosed.m; sourceTree = "<group>"; };
+		E199EA1F20A13E3700A1DD37 /* InterfaceSegregation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceSegregation.h; sourceTree = "<group>"; };
+		E199EA2020A13E3700A1DD37 /* InterfaceSegregation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceSegregation.m; sourceTree = "<group>"; };
+		E199EA2220A13EC300A1DD37 /* SingleResponsibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleResponsibility.h; sourceTree = "<group>"; };
+		E199EA2320A13EC300A1DD37 /* SingleResponsibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleResponsibility.m; sourceTree = "<group>"; };
+		E199EA2520A1497100A1DD37 /* LiskovSubstitution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiskovSubstitution.h; sourceTree = "<group>"; };
+		E199EA2620A1497100A1DD37 /* LiskovSubstitution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiskovSubstitution.m; sourceTree = "<group>"; };
+		E199EA2820A14AFA00A1DD37 /* LawOfDemeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LawOfDemeter.h; sourceTree = "<group>"; };
+		E199EA2920A14AFA00A1DD37 /* LawOfDemeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LawOfDemeter.m; sourceTree = "<group>"; };
 		E1B73E1720897AAC00CCA774 /* WTYSortAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTYSortAlgorithm.h; sourceTree = "<group>"; };
 		E1B73E1820897AAC00CCA774 /* WTYSortAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTYSortAlgorithm.m; sourceTree = "<group>"; };
 		E1B73E1A2089835A00CCA774 /* WTYSortAlgorithmTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTYSortAlgorithmTestCase.m; sourceTree = "<group>"; };
@@ -313,6 +331,7 @@
 				E1B73E1420897A3E00CCA774 /* 算法 */,
 				E1DBDE7D207F020700CB8A79 /* 数据结构 */,
 				E190CBA41FEBB0F0003F9D76 /* 设计模式 */,
+				E199EA1220A0531600A1DD37 /* 面向对象六大原则 */,
 				C838F7561D3CDF5B002A3D71 /* ViewController.h */,
 				C838F7571D3CDF5B002A3D71 /* ViewController.m */,
 				C838F7591D3CDF5B002A3D71 /* Main.storyboard */,
@@ -720,6 +739,73 @@
 			path = "过滤器";
 			sourceTree = "<group>";
 		};
+		E199EA1220A0531600A1DD37 /* 面向对象六大原则 */ = {
+			isa = PBXGroup;
+			children = (
+				E199EA1320A0531600A1DD37 /* 单一职责原则 */,
+				E199EA1420A0531600A1DD37 /* 开闭原则 */,
+				E199EA1520A0531600A1DD37 /* 依赖倒置原则 */,
+				E199EA1620A0531600A1DD37 /* 接口隔离原则 */,
+				E199EA1720A0531600A1DD37 /* 迪米特原则 */,
+				E199EA1820A0531600A1DD37 /* 里氏替换原则 */,
+			);
+			path = "面向对象六大原则";
+			sourceTree = "<group>";
+		};
+		E199EA1320A0531600A1DD37 /* 单一职责原则 */ = {
+			isa = PBXGroup;
+			children = (
+				E199EA2220A13EC300A1DD37 /* SingleResponsibility.h */,
+				E199EA2320A13EC300A1DD37 /* SingleResponsibility.m */,
+			);
+			path = "单一职责原则";
+			sourceTree = "<group>";
+		};
+		E199EA1420A0531600A1DD37 /* 开闭原则 */ = {
+			isa = PBXGroup;
+			children = (
+				E199EA1C20A05D2600A1DD37 /* OpenClosed.h */,
+				E199EA1D20A05D2600A1DD37 /* OpenClosed.m */,
+			);
+			path = "开闭原则";
+			sourceTree = "<group>";
+		};
+		E199EA1520A0531600A1DD37 /* 依赖倒置原则 */ = {
+			isa = PBXGroup;
+			children = (
+				E199EA1920A0538400A1DD37 /* DependenceInversion.h */,
+				E199EA1A20A0538400A1DD37 /* DependenceInversion.m */,
+			);
+			path = "依赖倒置原则";
+			sourceTree = "<group>";
+		};
+		E199EA1620A0531600A1DD37 /* 接口隔离原则 */ = {
+			isa = PBXGroup;
+			children = (
+				E199EA1F20A13E3700A1DD37 /* InterfaceSegregation.h */,
+				E199EA2020A13E3700A1DD37 /* InterfaceSegregation.m */,
+			);
+			path = "接口隔离原则";
+			sourceTree = "<group>";
+		};
+		E199EA1720A0531600A1DD37 /* 迪米特原则 */ = {
+			isa = PBXGroup;
+			children = (
+				E199EA2820A14AFA00A1DD37 /* LawOfDemeter.h */,
+				E199EA2920A14AFA00A1DD37 /* LawOfDemeter.m */,
+			);
+			path = "迪米特原则";
+			sourceTree = "<group>";
+		};
+		E199EA1820A0531600A1DD37 /* 里氏替换原则 */ = {
+			isa = PBXGroup;
+			children = (
+				E199EA2520A1497100A1DD37 /* LiskovSubstitution.h */,
+				E199EA2620A1497100A1DD37 /* LiskovSubstitution.m */,
+			);
+			path = "里氏替换原则";
+			sourceTree = "<group>";
+		};
 		E1B73E1420897A3E00CCA774 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -914,6 +1000,7 @@
 				E190CC131FEBCBAF003F9D76 /* Burger.m in Sources */,
 				C838F7551D3CDF5B002A3D71 /* AppDelegate.m in Sources */,
 				E190CC1F1FEBCE5A003F9D76 /* Context.m in Sources */,
+				E199EA1E20A05D2600A1DD37 /* OpenClosed.m in Sources */,
 				E199C3411FF1E21600F2DE0A /* Command.m in Sources */,
 				E190CC291FEBD2A8003F9D76 /* AndCriteria.m in Sources */,
 				E199C3531FF1E2F600F2DE0A /* MiPhtone.m in Sources */,
@@ -945,16 +1032,21 @@
 				E190CC351FEBD74E003F9D76 /* CriteriaSingle.m in Sources */,
 				E199C3471FF1E29C00F2DE0A /* LightOnCommand.m in Sources */,
 				E190CC4A1FEBDF75003F9D76 /* StateContext.m in Sources */,
+				E199EA2720A1497100A1DD37 /* LiskovSubstitution.m in Sources */,
 				E190CBC91FEBB1D6003F9D76 /* Rectangle.m in Sources */,
 				E190CBCC1FEBB26D003F9D76 /* Shape.m in Sources */,
 				E199C3621FF48B2E00F2DE0A /* Originator.m in Sources */,
 				E190CC561FF0AB1B003F9D76 /* MacPlatform.m in Sources */,
+				E199EA2A20A14AFA00A1DD37 /* LawOfDemeter.m in Sources */,
 				E190CBF41FEBC479003F9D76 /* ZDColor.m in Sources */,
 				E199C3711FF4939D00F2DE0A /* ErrorLogger.m in Sources */,
+				E199EA2420A13EC300A1DD37 /* SingleResponsibility.m in Sources */,
+				E199EA2120A13E3700A1DD37 /* InterfaceSegregation.m in Sources */,
 				E190CC501FF0AAC1003F9D76 /* Monkey.m in Sources */,
 				E199C33E1FF1DC3D00F2DE0A /* FlyWeightShapFactory.m in Sources */,
 				E1DBDE8D207F174E00CB8A79 /* DataStructureTest.m in Sources */,
 				E199C35F1FF488D600F2DE0A /* ChatRoom.m in Sources */,
+				E199EA1B20A0538400A1DD37 /* DependenceInversion.m in Sources */,
 				E190CBF61FEBC479003F9D76 /* FactoryProducer.m in Sources */,
 				E199C36B1FF4925200F2DE0A /* AbstractLogger.m in Sources */,
 			);
