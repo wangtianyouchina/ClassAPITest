@@ -22,6 +22,56 @@
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
+-(void)test_insertSort {
+    NSMutableArray *mutArray = [@[@4,@5,@5,@3,@10,@51,@500,@120,@123] mutableCopy];
+    
+    [WTYSortAlgorithm insertSort:mutArray];
+    
+    for (NSNumber *num in mutArray) {
+        NSLog(@"%@",num);
+    }
+    mutArray = [@[@9999] mutableCopy];
+    
+    [WTYSortAlgorithm insertSort:mutArray];
+    
+    for (NSNumber *num in mutArray) {
+        NSLog(@"%@",num);
+    }
+    mutArray = [@[] mutableCopy];
+    
+    [WTYSortAlgorithm insertSort:mutArray];
+    
+    for (NSNumber *num in mutArray) {
+        NSLog(@"%@",num);
+    }
+}
+// 冒泡排序
+-(void)test_bubbleSort {
+    NSMutableArray *mutArray = [@[@4,@5,@5,@3,@10,@51,@500,@120,@123] mutableCopy];
+
+    [WTYSortAlgorithm bubbleSort:mutArray];
+    
+    for (NSNumber *num in mutArray) {
+        NSLog(@"%@",num);
+    }
+    mutArray = [@[@9999] mutableCopy];
+    
+    [WTYSortAlgorithm bubbleSort:mutArray];
+    
+    for (NSNumber *num in mutArray) {
+        NSLog(@"%@",num);
+    }
+    mutArray = [@[] mutableCopy];
+    
+    [WTYSortAlgorithm bubbleSort:mutArray];
+    
+    for (NSNumber *num in mutArray) {
+        NSLog(@"%@",num);
+    }
+
+    
+
+}
 // 快速排序
 -(void)test_quickSort {
     

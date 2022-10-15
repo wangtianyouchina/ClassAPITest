@@ -11,3 +11,41 @@
 @implementation LawOfDemeter
 
 @end
+// 佣人
+@implementation Maid
+-(void)cook {
+    NSLog(@"%@---- cook",self.id);
+}
+@end
+
+// 管家
+@implementation Butle
+
+-(void)cookCommand {
+    for (Maid *maid in self.maidArray) {
+        [maid cook];
+    }
+}
+
+
+@end
+//主人
+@implementation Master
+
+/*
+ * 违反了最少知道原则
+-(void)cookCommand:(Butle *)butle {
+    
+    for (Maid *maid in butle.maidArray) {
+        [maid cook];
+    }
+}
+ */
+
+// 符合最少知道原则
+-(void)cookCommand:(Butle *)butle {
+    [butle cookCommand];
+}
+
+
+@end

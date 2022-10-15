@@ -96,4 +96,6 @@ void merge_sort(int a[], int first, int last, int temp[])
 
 +(void)quickSort:(NSMutableArray *)array start:(NSInteger )start end:(NSInteger)end;
 +(void)quickSort2:(NSMutableArray *)array start:(NSInteger )start end:(NSInteger)end;
++(void)bubbleSort:(NSMutableArray *)array;
++(void)insertSort:(NSMutableArray *)array;
 @end

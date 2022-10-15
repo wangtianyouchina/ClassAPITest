@@ -12,6 +12,8 @@
     self = [super init];
     if (self) {
         self.data = data;
+         
+        
         
     }
     return self;
@@ -37,6 +39,9 @@
         nodeCount ++;
     }];
     return nodeCount;
+    
+     
+    
 }
 
 
@@ -163,6 +168,8 @@
 
             }
         }
+        
+        
     }
     return self;
 }

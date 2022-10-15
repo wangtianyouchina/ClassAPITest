@@ -51,7 +51,40 @@
 /*
  * 迪米特法则（Law of Demeter）又叫作最少知识原则（Least Knowledge Principle 简写LKP），就是说一个对象应当对其他对象有尽可能少的了解,不和陌生人
  * 够用就好; 知道的越多 耦合越高
+ * 生活中: 强调等级  阶级
+ 
+ *  应用
+ * 变量: 命名:以需求方的需求命名,不要以命名具体实现命名
+ * 函数: 命名:以需求方命名; 以最小 少的数据结构传递参数,
+ * 类设计: 设置成不变类 ,尽量降低类的成员变量 方法的访问权限
+ * 关系: 尽量降低关联类的数量 , 数据结构 引用  函数引用  模块引用
+ * 模块设计: 类之间的相互引用越少约好
+ *
+ *
  */
+
+
+
+
 @interface LawOfDemeter : NSObject
 
 @end
+// 佣人
+@interface Maid : NSObject
+@property(nonatomic,copy) NSString *id;
+-(void)cook;
+@end
+
+// 管家
+@interface Butle : NSObject
+@property(nonatomic,strong) NSMutableArray<Maid*> *maidArray;
+-(void)cookCommand;
+@end
+//主人
+@interface Master : NSObject
+-(void)cookCommand:(Butle *)butle;
+
+@end
+
+
+

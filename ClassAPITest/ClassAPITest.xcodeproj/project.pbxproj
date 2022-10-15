@@ -16,6 +16,104 @@
 		C838F76B1D3CDF5B002A3D71 /* ClassAPITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C838F76A1D3CDF5B002A3D71 /* ClassAPITestTests.m */; };
 		C838F7761D3CDF5B002A3D71 /* ClassAPITestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C838F7751D3CDF5B002A3D71 /* ClassAPITestUITests.m */; };
 		C838F7841D3CDF8D002A3D71 /* NSArrayTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C838F7831D3CDF8D002A3D71 /* NSArrayTestCase.m */; };
+		E1167397231F457900CC33C5 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC061FEBCB5C003F9D76 /* Meal.m */; };
+		E1167398231F457900CC33C5 /* OpearationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC211FEBCE6C003F9D76 /* OpearationAdd.m */; };
+		E1167399231F457900CC33C5 /* ZDColorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBEF1FEBC479003F9D76 /* ZDColorFactory.m */; };
+		E116739A231F457900CC33C5 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E6295230D257000A6A29E /* Link.swift */; };
+		E116739B231F457900CC33C5 /* RedShapeDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC3A1FEBDB01003F9D76 /* RedShapeDecorator.m */; };
+		E116739C231F457900CC33C5 /* CriteriaMale.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC311FEBD3AD003F9D76 /* CriteriaMale.m */; };
+		E116739D231F457900CC33C5 /* DesignPatternTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBD11FEBB31B003F9D76 /* DesignPatternTest.m */; };
+		E116739E231F457900CC33C5 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC031FEBCB49003F9D76 /* Builder.m */; };
+		E116739F231F457900CC33C5 /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C34C1FF1E2DB00F2DE0A /* TV.m */; };
+		E11673A0231F457900CC33C5 /* WTYSortAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B73E1820897AAC00CCA774 /* WTYSortAlgorithm.m */; };
+		E11673A1231F457900CC33C5 /* Heap.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B549E2302A6B2005BD646 /* Heap.m */; };
+		E11673A2231F457900CC33C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C838F7571D3CDF5B002A3D71 /* ViewController.m */; };
+		E11673A3231F457900CC33C5 /* HouseHoldAppliances.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3491FF1E2CA00F2DE0A /* HouseHoldAppliances.m */; };
+		E11673A4231F457900CC33C5 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBE91FEBC479003F9D76 /* AbstractFactory.m */; };
+		E11673A5231F457900CC33C5 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C34F1FF1E2E400F2DE0A /* Light.m */; };
+		E11673A6231F457900CC33C5 /* AndroidMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC581FF0AB2A003F9D76 /* AndroidMonkey.m */; };
+		E11673A7231F457900CC33C5 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E6289230BA32500A6A29E /* Link.swift */; };
+		E11673A8231F457900CC33C5 /* ZDShape.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBEB1FEBC479003F9D76 /* ZDShape.m */; };
+		E11673A9231F457900CC33C5 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3551FF4840200F2DE0A /* Subject.m */; };
+		E11673AA231F457900CC33C5 /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3641FF48B3B00F2DE0A /* Memento.m */; };
+		E11673AB231F457900CC33C5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C35B1FF488CD00F2DE0A /* User.m */; };
+		E11673AC231F457900CC33C5 /* StopState.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC461FEBDF60003F9D76 /* StopState.m */; };
+		E11673AD231F457900CC33C5 /* Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC151FEBCBD5003F9D76 /* Wrapper.m */; };
+		E11673AE231F457900CC33C5 /* Packing.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC0C1FEBCB87003F9D76 /* Packing.m */; };
+		E11673AF231F457900CC33C5 /* TVOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3431FF1E28B00F2DE0A /* TVOnCommand.m */; };
+		E11673B0231F457900CC33C5 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBC21FEBB1BD003F9D76 /* Circle.m */; };
+		E11673B1231F457900CC33C5 /* ShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBCE1FEBB2C1003F9D76 /* ShapeFactory.m */; };
+		E11673B2231F457900CC33C5 /* Burger.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC121FEBCBAF003F9D76 /* Burger.m */; };
+		E11673B3231F457900CC33C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C838F7541D3CDF5B002A3D71 /* AppDelegate.m */; };
+		E11673B4231F457900CC33C5 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC1E1FEBCE5A003F9D76 /* Context.m */; };
+		E11673B5231F457900CC33C5 /* OpenClosed.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA1D20A05D2600A1DD37 /* OpenClosed.m */; };
+		E11673B6231F457900CC33C5 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3401FF1E21600F2DE0A /* Command.m */; };
+		E11673B7231F457900CC33C5 /* AndCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC281FEBD2A8003F9D76 /* AndCriteria.m */; };
+		E11673B8231F457900CC33C5 /* MiPhtone.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3521FF1E2F600F2DE0A /* MiPhtone.m */; };
+		E11673B9231F457900CC33C5 /* ConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C36D1FF4939300F2DE0A /* ConsoleLogger.m */; };
+		E11673BA231F457900CC33C5 /* ShapeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC3D1FEBDE4A003F9D76 /* ShapeMaker.m */; };
+		E11673BB231F457900CC33C5 /* ShapCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC001FEBC8BA003F9D76 /* ShapCache.m */; };
+		E11673BC231F457900CC33C5 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E628B230D203600A6A29E /* TestClass.swift */; };
+		E11673BD231F457900CC33C5 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC1B1FEBCE4B003F9D76 /* Strategy.m */; };
+		E11673BE231F457900CC33C5 /* ShapeDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC371FEBDADB003F9D76 /* ShapeDecorator.m */; };
+		E11673BF231F457900CC33C5 /* ZDCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBFD1FEBC528003F9D76 /* ZDCircle.m */; };
+		E11673C0231F457900CC33C5 /* MealBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC0F1FEBCB96003F9D76 /* MealBuilder.m */; };
+		E11673C1231F457900CC33C5 /* WinPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC521FF0AB11003F9D76 /* WinPlatform.m */; };
+		E11673C2231F457900CC33C5 /* CareTaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3671FF48B4700F2DE0A /* CareTaker.m */; };
+		E11673C3231F457900CC33C5 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC091FEBCB7C003F9D76 /* Item.m */; };
+		E11673C4231F457900CC33C5 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBC51FEBB1CD003F9D76 /* Square.m */; };
+		E11673C5231F457900CC33C5 /* SingleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC181FEBCDE7003F9D76 /* SingleObject.m */; };
+		E11673C6231F457900CC33C5 /* ZDShapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBF11FEBC479003F9D76 /* ZDShapFactory.m */; };
+		E11673C7231F457900CC33C5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC2E1FEBD2C7003F9D76 /* Person.m */; };
+		E11673C8231F457900CC33C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C838F7511D3CDF5B002A3D71 /* main.m */; };
+		E11673C9231F457900CC33C5 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE82207F028700CB8A79 /* BinaryTree.m */; };
+		E11673CA231F457900CC33C5 /* StartState.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC431FEBDF56003F9D76 /* StartState.m */; };
+		E11673CB231F457900CC33C5 /* Criteria.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC251FEBD28E003F9D76 /* Criteria.m */; };
+		E11673CC231F457900CC33C5 /* Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC4C1FF0AAB9003F9D76 /* Platform.m */; };
+		E11673CD231F457900CC33C5 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B54A12302ACF5005BD646 /* Heap.swift */; };
+		E11673CE231F457900CC33C5 /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3731FF493A600F2DE0A /* FileLogger.m */; };
+		E11673CF231F457900CC33C5 /* WTYQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B5498230247A2005BD646 /* WTYQueue.m */; };
+		E11673D0231F457900CC33C5 /* IosMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC5B1FF0AB31003F9D76 /* IosMonkey.m */; };
+		E11673D1231F457900CC33C5 /* ZDRed.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBFA1FEBC506003F9D76 /* ZDRed.m */; };
+		E11673D2231F457900CC33C5 /* OrCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC2B1FEBD2BE003F9D76 /* OrCriteria.m */; };
+		E11673D3231F457900CC33C5 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC401FEBDF41003F9D76 /* State.m */; };
+		E11673D4231F457900CC33C5 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3581FF4840E00F2DE0A /* Observer.m */; };
+		E11673D5231F457900CC33C5 /* CriteriaSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC341FEBD74E003F9D76 /* CriteriaSingle.m */; };
+		E11673D6231F457900CC33C5 /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3461FF1E29C00F2DE0A /* LightOnCommand.m */; };
+		E11673D7231F457900CC33C5 /* StateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC491FEBDF75003F9D76 /* StateContext.m */; };
+		E11673D8231F457900CC33C5 /* LiskovSubstitution.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA2620A1497100A1DD37 /* LiskovSubstitution.m */; };
+		E11673D9231F457900CC33C5 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBC81FEBB1D6003F9D76 /* Rectangle.m */; };
+		E11673DA231F457900CC33C5 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBCB1FEBB26D003F9D76 /* Shape.m */; };
+		E11673DB231F457900CC33C5 /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3611FF48B2E00F2DE0A /* Originator.m */; };
+		E11673DC231F457900CC33C5 /* MacPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC551FF0AB1B003F9D76 /* MacPlatform.m */; };
+		E11673DD231F457900CC33C5 /* LawOfDemeter.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA2920A14AFA00A1DD37 /* LawOfDemeter.m */; };
+		E11673DE231F457900CC33C5 /* ZDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBEA1FEBC479003F9D76 /* ZDColor.m */; };
+		E11673DF231F457900CC33C5 /* ErrorLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C3701FF4939D00F2DE0A /* ErrorLogger.m */; };
+		E11673E0231F457900CC33C5 /* SingleResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA2320A13EC300A1DD37 /* SingleResponsibility.m */; };
+		E11673E1231F457900CC33C5 /* InterfaceSegregation.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA2020A13E3700A1DD37 /* InterfaceSegregation.m */; };
+		E11673E2231F457900CC33C5 /* Monkey.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CC4F1FF0AAC1003F9D76 /* Monkey.m */; };
+		E11673E3231F457900CC33C5 /* FlyWeightShapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C33D1FF1DC3D00F2DE0A /* FlyWeightShapFactory.m */; };
+		E11673E4231F457900CC33C5 /* DataStructureTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE8C207F174E00CB8A79 /* DataStructureTest.m */; };
+		E11673E5231F457900CC33C5 /* ChatRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C35E1FF488D600F2DE0A /* ChatRoom.m */; };
+		E11673E6231F457900CC33C5 /* DependenceInversion.m in Sources */ = {isa = PBXBuildFile; fileRef = E199EA1A20A0538400A1DD37 /* DependenceInversion.m */; };
+		E11673E7231F457900CC33C5 /* FactoryProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBED1FEBC479003F9D76 /* FactoryProducer.m */; };
+		E11673E8231F457900CC33C5 /* WTYLinkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B549B23025BC2005BD646 /* WTYLinkQueue.m */; };
+		E11673E9231F457900CC33C5 /* AbstractLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E199C36A1FF4925200F2DE0A /* AbstractLogger.m */; };
+		E11673EC231F457900CC33C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C838F75E1D3CDF5B002A3D71 /* LaunchScreen.storyboard */; };
+		E11673ED231F457900CC33C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C838F75C1D3CDF5B002A3D71 /* Assets.xcassets */; };
+		E11673EE231F457900CC33C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C838F7591D3CDF5B002A3D71 /* Main.storyboard */; };
+		E11B5499230247A2005BD646 /* WTYQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B5498230247A2005BD646 /* WTYQueue.m */; };
+		E11B549C23025BC2005BD646 /* WTYLinkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B549B23025BC2005BD646 /* WTYLinkQueue.m */; };
+		E11B549F2302A6B2005BD646 /* Heap.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B549E2302A6B2005BD646 /* Heap.m */; };
+		E11B54A22302ACF5005BD646 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B54A12302ACF5005BD646 /* Heap.swift */; };
+		E125E986242355B400ED7776 /* ArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125E985242355B400ED7776 /* ArrayTest.swift */; };
+		E1639BEA2653C2B00027D1F7 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1639BE92653C2B00027D1F7 /* StringTest.swift */; };
+		E1639BF02653C2C90027D1F7 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1639BEF2653C2C90027D1F7 /* StringTest.swift */; };
+		E16E628A230BA32500A6A29E /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E6289230BA32500A6A29E /* Link.swift */; };
+		E16E628C230D203600A6A29E /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E628B230D203600A6A29E /* TestClass.swift */; };
+		E16E6293230D254B00A6A29E /* LinkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E6292230D254B00A6A29E /* LinkTest.swift */; };
+		E16E6296230D257100A6A29E /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E6295230D257000A6A29E /* Link.swift */; };
+		E16E6297230D257100A6A29E /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E6295230D257000A6A29E /* Link.swift */; };
 		E190CBC31FEBB1BD003F9D76 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBC21FEBB1BD003F9D76 /* Circle.m */; };
 		E190CBC61FEBB1CD003F9D76 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBC51FEBB1CD003F9D76 /* Square.m */; };
 		E190CBC91FEBB1D6003F9D76 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E190CBC81FEBB1D6003F9D76 /* Rectangle.m */; };
@@ -91,6 +189,8 @@
 		E1DBDE84207F028700CB8A79 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE82207F028700CB8A79 /* BinaryTree.m */; };
 		E1DBDE8D207F174E00CB8A79 /* DataStructureTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE8C207F174E00CB8A79 /* DataStructureTest.m */; };
 		E1DBDE8F207F409600CB8A79 /* BinaryTreeTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDE8E207F409500CB8A79 /* BinaryTreeTestCase.m */; };
+		E1E324DC2639384400C3E4E8 /* ThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E324DB2639384400C3E4E8 /* ThreadManager.m */; };
+		E1E741722489EEE6008F6708 /* Automaton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E741712489EEE6008F6708 /* Automaton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +228,25 @@
 		C838F7751D3CDF5B002A3D71 /* ClassAPITestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassAPITestUITests.m; sourceTree = "<group>"; };
 		C838F7771D3CDF5B002A3D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C838F7831D3CDF8D002A3D71 /* NSArrayTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayTestCase.m; sourceTree = "<group>"; };
+		E11673F2231F457900CC33C5 /* ClassAPITest copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClassAPITest copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11673F3231F457A00CC33C5 /* ClassAPITest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ClassAPITest copy-Info.plist"; path = "/Users/wangtianyou/WangTianYou/github/ClassAPITest/ClassAPITest/ClassAPITest copy-Info.plist"; sourceTree = "<absolute>"; };
+		E11B5497230247A2005BD646 /* WTYQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTYQueue.h; sourceTree = "<group>"; };
+		E11B5498230247A2005BD646 /* WTYQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTYQueue.m; sourceTree = "<group>"; };
+		E11B549A23025BC2005BD646 /* WTYLinkQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTYLinkQueue.h; sourceTree = "<group>"; };
+		E11B549B23025BC2005BD646 /* WTYLinkQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTYLinkQueue.m; sourceTree = "<group>"; };
+		E11B549D2302A6B2005BD646 /* Heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
+		E11B549E2302A6B2005BD646 /* Heap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heap.m; sourceTree = "<group>"; };
+		E11B54A02302ACF4005BD646 /* ClassAPITest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassAPITest-Bridging-Header.h"; sourceTree = "<group>"; };
+		E11B54A12302ACF5005BD646 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		E125E985242355B400ED7776 /* ArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTest.swift; sourceTree = "<group>"; };
+		E125E987242356FD00ED7776 /* ClassAPITest copy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ClassAPITest copy.entitlements"; sourceTree = "<group>"; };
+		E1639BE92653C2B00027D1F7 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
+		E1639BEF2653C2C90027D1F7 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
+		E16E6289230BA32500A6A29E /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		E16E628B230D203600A6A29E /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		E16E628D230D24B700A6A29E /* ClassAPITestTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassAPITestTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E16E6292230D254B00A6A29E /* LinkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkTest.swift; sourceTree = "<group>"; };
+		E16E6295230D257000A6A29E /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
 		E190CBC11FEBB1BD003F9D76 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		E190CBC21FEBB1BD003F9D76 /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 		E190CBC41FEBB1CD003F9D76 /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
@@ -276,6 +395,9 @@
 		E1DBDE8B207F174E00CB8A79 /* DataStructureTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructureTest.h; sourceTree = "<group>"; };
 		E1DBDE8C207F174E00CB8A79 /* DataStructureTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStructureTest.m; sourceTree = "<group>"; };
 		E1DBDE8E207F409500CB8A79 /* BinaryTreeTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeTestCase.m; sourceTree = "<group>"; };
+		E1E324DA2639384400C3E4E8 /* ThreadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadManager.h; sourceTree = "<group>"; };
+		E1E324DB2639384400C3E4E8 /* ThreadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadManager.m; sourceTree = "<group>"; };
+		E1E741712489EEE6008F6708 /* Automaton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automaton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,16 +422,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E11673EA231F457900CC33C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C838F7441D3CDF5B002A3D71 = {
 			isa = PBXGroup;
 			children = (
+				E125E987242356FD00ED7776 /* ClassAPITest copy.entitlements */,
 				C838F74F1D3CDF5B002A3D71 /* ClassAPITest */,
 				C838F7691D3CDF5B002A3D71 /* ClassAPITestTests */,
 				C838F7741D3CDF5B002A3D71 /* ClassAPITestUITests */,
 				C838F74E1D3CDF5B002A3D71 /* Products */,
+				E11673F3231F457A00CC33C5 /* ClassAPITest copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -319,6 +450,7 @@
 				C838F74D1D3CDF5B002A3D71 /* ClassAPITest.app */,
 				C838F7661D3CDF5B002A3D71 /* ClassAPITestTests.xctest */,
 				C838F7711D3CDF5B002A3D71 /* ClassAPITestUITests.xctest */,
+				E11673F2231F457900CC33C5 /* ClassAPITest copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -334,6 +466,9 @@
 				E199EA1220A0531600A1DD37 /* 面向对象六大原则 */,
 				C838F7561D3CDF5B002A3D71 /* ViewController.h */,
 				C838F7571D3CDF5B002A3D71 /* ViewController.m */,
+				E1E324DA2639384400C3E4E8 /* ThreadManager.h */,
+				E1E324DB2639384400C3E4E8 /* ThreadManager.m */,
+				E1639BEF2653C2C90027D1F7 /* StringTest.swift */,
 				C838F7591D3CDF5B002A3D71 /* Main.storyboard */,
 				C838F75C1D3CDF5B002A3D71 /* Assets.xcassets */,
 				C838F75E1D3CDF5B002A3D71 /* LaunchScreen.storyboard */,
@@ -358,7 +493,10 @@
 				C838F7831D3CDF8D002A3D71 /* NSArrayTestCase.m */,
 				E1DBDE8E207F409500CB8A79 /* BinaryTreeTestCase.m */,
 				E1B73E1A2089835A00CCA774 /* WTYSortAlgorithmTestCase.m */,
+				E16E6292230D254B00A6A29E /* LinkTest.swift */,
+				E1639BE92653C2B00027D1F7 /* StringTest.swift */,
 				C838F76C1D3CDF5B002A3D71 /* Info.plist */,
+				E16E628D230D24B700A6A29E /* ClassAPITestTests-Bridging-Header.h */,
 			);
 			path = ClassAPITestTests;
 			sourceTree = "<group>";
@@ -370,6 +508,75 @@
 				C838F7771D3CDF5B002A3D71 /* Info.plist */,
 			);
 			path = ClassAPITestUITests;
+			sourceTree = "<group>";
+		};
+		E11B548C2302476D005BD646 /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				E11B5497230247A2005BD646 /* WTYQueue.h */,
+				E11B5498230247A2005BD646 /* WTYQueue.m */,
+				E11B549A23025BC2005BD646 /* WTYLinkQueue.h */,
+				E11B549B23025BC2005BD646 /* WTYLinkQueue.m */,
+			);
+			path = "队列";
+			sourceTree = "<group>";
+		};
+		E11B548D2302476D005BD646 /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				E16E6289230BA32500A6A29E /* Link.swift */,
+				E16E6294230D257000A6A29E /* 链表 */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		E11B548E2302476D005BD646 /* 堆 */ = {
+			isa = PBXGroup;
+			children = (
+				E11B549D2302A6B2005BD646 /* Heap.h */,
+				E11B549E2302A6B2005BD646 /* Heap.m */,
+				E11B54A12302ACF5005BD646 /* Heap.swift */,
+				E16E628B230D203600A6A29E /* TestClass.swift */,
+				E11B54A02302ACF4005BD646 /* ClassAPITest-Bridging-Header.h */,
+			);
+			path = "堆";
+			sourceTree = "<group>";
+		};
+		E11B548F2302476D005BD646 /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
+		E11B54902302476D005BD646 /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				E125E985242355B400ED7776 /* ArrayTest.swift */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+		E11B54912302476D005BD646 /* 散列表 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "散列表";
+			sourceTree = "<group>";
+		};
+		E11B54922302476D005BD646 /* 图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图";
+			sourceTree = "<group>";
+		};
+		E16E6294230D257000A6A29E /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				E16E6295230D257000A6A29E /* Link.swift */,
+			);
+			name = "链表";
 			sourceTree = "<group>";
 		};
 		E190CBA41FEBB0F0003F9D76 /* 设计模式 */ = {
@@ -809,6 +1016,7 @@
 		E1B73E1420897A3E00CCA774 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
+				E1E741702489EEC4008F6708 /* 有限状态机 */,
 				E1B73E1520897A3E00CCA774 /* 排序算法 */,
 			);
 			path = "算法";
@@ -829,6 +1037,13 @@
 				E1DBDE81207F028700CB8A79 /* 二叉树 */,
 				E1DBDE8B207F174E00CB8A79 /* DataStructureTest.h */,
 				E1DBDE8C207F174E00CB8A79 /* DataStructureTest.m */,
+				E11B548E2302476D005BD646 /* 堆 */,
+				E11B548C2302476D005BD646 /* 队列 */,
+				E11B548D2302476D005BD646 /* 链表 */,
+				E11B54912302476D005BD646 /* 散列表 */,
+				E11B54902302476D005BD646 /* 数组 */,
+				E11B54922302476D005BD646 /* 图 */,
+				E11B548F2302476D005BD646 /* 栈 */,
 			);
 			path = "数据结构";
 			sourceTree = "<group>";
@@ -840,6 +1055,14 @@
 				E1DBDE82207F028700CB8A79 /* BinaryTree.m */,
 			);
 			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		E1E741702489EEC4008F6708 /* 有限状态机 */ = {
+			isa = PBXGroup;
+			children = (
+				E1E741712489EEE6008F6708 /* Automaton.swift */,
+			);
+			path = "有限状态机";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -898,6 +1121,23 @@
 			productReference = C838F7711D3CDF5B002A3D71 /* ClassAPITestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E1167395231F457900CC33C5 /* ClassAPITest copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11673EF231F457900CC33C5 /* Build configuration list for PBXNativeTarget "ClassAPITest copy" */;
+			buildPhases = (
+				E1167396231F457900CC33C5 /* Sources */,
+				E11673EA231F457900CC33C5 /* Frameworks */,
+				E11673EB231F457900CC33C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ClassAPITest copy";
+			productName = ClassAPITest;
+			productReference = E11673F2231F457900CC33C5 /* ClassAPITest copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -910,14 +1150,19 @@
 					C838F74C1D3CDF5B002A3D71 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 56DB234WRR;
+						LastSwiftMigration = 1030;
 					};
 					C838F7651D3CDF5B002A3D71 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = C838F74C1D3CDF5B002A3D71;
 					};
 					C838F7701D3CDF5B002A3D71 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = C838F74C1D3CDF5B002A3D71;
+					};
+					E1167395231F457900CC33C5 = {
+						DevelopmentTeam = 56DB234WRR;
 					};
 				};
 			};
@@ -926,6 +1171,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -937,6 +1183,7 @@
 				C838F74C1D3CDF5B002A3D71 /* ClassAPITest */,
 				C838F7651D3CDF5B002A3D71 /* ClassAPITestTests */,
 				C838F7701D3CDF5B002A3D71 /* ClassAPITestUITests */,
+				E1167395231F457900CC33C5 /* ClassAPITest copy */,
 			);
 		};
 /* End PBXProject section */
@@ -966,6 +1213,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E11673EB231F457900CC33C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11673EC231F457900CC33C5 /* LaunchScreen.storyboard in Resources */,
+				E11673ED231F457900CC33C5 /* Assets.xcassets in Resources */,
+				E11673EE231F457900CC33C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -976,17 +1233,22 @@
 				E190CC071FEBCB5C003F9D76 /* Meal.m in Sources */,
 				E190CC221FEBCE6C003F9D76 /* OpearationAdd.m in Sources */,
 				E190CBF71FEBC479003F9D76 /* ZDColorFactory.m in Sources */,
+				E16E6296230D257100A6A29E /* Link.swift in Sources */,
 				E190CC3B1FEBDB01003F9D76 /* RedShapeDecorator.m in Sources */,
 				E190CC321FEBD3AD003F9D76 /* CriteriaMale.m in Sources */,
 				E190CBD21FEBB31B003F9D76 /* DesignPatternTest.m in Sources */,
 				E190CC041FEBCB49003F9D76 /* Builder.m in Sources */,
 				E199C34D1FF1E2DB00F2DE0A /* TV.m in Sources */,
+				E1E741722489EEE6008F6708 /* Automaton.swift in Sources */,
 				E1B73E1920897AAC00CCA774 /* WTYSortAlgorithm.m in Sources */,
+				E11B549F2302A6B2005BD646 /* Heap.m in Sources */,
 				C838F7581D3CDF5B002A3D71 /* ViewController.m in Sources */,
 				E199C34A1FF1E2CA00F2DE0A /* HouseHoldAppliances.m in Sources */,
 				E190CBF31FEBC479003F9D76 /* AbstractFactory.m in Sources */,
 				E199C3501FF1E2E400F2DE0A /* Light.m in Sources */,
 				E190CC591FF0AB2A003F9D76 /* AndroidMonkey.m in Sources */,
+				E1639BF02653C2C90027D1F7 /* StringTest.swift in Sources */,
+				E16E628A230BA32500A6A29E /* Link.swift in Sources */,
 				E190CBF51FEBC479003F9D76 /* ZDShape.m in Sources */,
 				E199C3561FF4840200F2DE0A /* Subject.m in Sources */,
 				E199C3651FF48B3B00F2DE0A /* Memento.m in Sources */,
@@ -1007,6 +1269,7 @@
 				E199C36E1FF4939300F2DE0A /* ConsoleLogger.m in Sources */,
 				E190CC3E1FEBDE4A003F9D76 /* ShapeMaker.m in Sources */,
 				E190CC011FEBC8BA003F9D76 /* ShapCache.m in Sources */,
+				E16E628C230D203600A6A29E /* TestClass.swift in Sources */,
 				E190CC1C1FEBCE4B003F9D76 /* Strategy.m in Sources */,
 				E190CC381FEBDADB003F9D76 /* ShapeDecorator.m in Sources */,
 				E190CBFE1FEBC528003F9D76 /* ZDCircle.m in Sources */,
@@ -1023,15 +1286,19 @@
 				E190CC441FEBDF56003F9D76 /* StartState.m in Sources */,
 				E190CC261FEBD28E003F9D76 /* Criteria.m in Sources */,
 				E190CC4D1FF0AAB9003F9D76 /* Platform.m in Sources */,
+				E11B54A22302ACF5005BD646 /* Heap.swift in Sources */,
 				E199C3741FF493A600F2DE0A /* FileLogger.m in Sources */,
+				E11B5499230247A2005BD646 /* WTYQueue.m in Sources */,
 				E190CC5C1FF0AB31003F9D76 /* IosMonkey.m in Sources */,
 				E190CBFB1FEBC506003F9D76 /* ZDRed.m in Sources */,
 				E190CC2C1FEBD2BE003F9D76 /* OrCriteria.m in Sources */,
 				E190CC411FEBDF41003F9D76 /* State.m in Sources */,
+				E1E324DC2639384400C3E4E8 /* ThreadManager.m in Sources */,
 				E199C3591FF4840E00F2DE0A /* Observer.m in Sources */,
 				E190CC351FEBD74E003F9D76 /* CriteriaSingle.m in Sources */,
 				E199C3471FF1E29C00F2DE0A /* LightOnCommand.m in Sources */,
 				E190CC4A1FEBDF75003F9D76 /* StateContext.m in Sources */,
+				E125E986242355B400ED7776 /* ArrayTest.swift in Sources */,
 				E199EA2720A1497100A1DD37 /* LiskovSubstitution.m in Sources */,
 				E190CBC91FEBB1D6003F9D76 /* Rectangle.m in Sources */,
 				E190CBCC1FEBB26D003F9D76 /* Shape.m in Sources */,
@@ -1048,6 +1315,7 @@
 				E199C35F1FF488D600F2DE0A /* ChatRoom.m in Sources */,
 				E199EA1B20A0538400A1DD37 /* DependenceInversion.m in Sources */,
 				E190CBF61FEBC479003F9D76 /* FactoryProducer.m in Sources */,
+				E11B549C23025BC2005BD646 /* WTYLinkQueue.m in Sources */,
 				E199C36B1FF4925200F2DE0A /* AbstractLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1058,6 +1326,9 @@
 			files = (
 				E1B73E1B2089835A00CCA774 /* WTYSortAlgorithmTestCase.m in Sources */,
 				E1DBDE8F207F409600CB8A79 /* BinaryTreeTestCase.m in Sources */,
+				E16E6293230D254B00A6A29E /* LinkTest.swift in Sources */,
+				E1639BEA2653C2B00027D1F7 /* StringTest.swift in Sources */,
+				E16E6297230D257100A6A29E /* Link.swift in Sources */,
 				C838F7841D3CDF8D002A3D71 /* NSArrayTestCase.m in Sources */,
 				C838F76B1D3CDF5B002A3D71 /* ClassAPITestTests.m in Sources */,
 			);
@@ -1068,6 +1339,96 @@
 			buildActionMask = 2147483647;
 			files = (
 				C838F7761D3CDF5B002A3D71 /* ClassAPITestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1167396231F457900CC33C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1167397231F457900CC33C5 /* Meal.m in Sources */,
+				E1167398231F457900CC33C5 /* OpearationAdd.m in Sources */,
+				E1167399231F457900CC33C5 /* ZDColorFactory.m in Sources */,
+				E116739A231F457900CC33C5 /* Link.swift in Sources */,
+				E116739B231F457900CC33C5 /* RedShapeDecorator.m in Sources */,
+				E116739C231F457900CC33C5 /* CriteriaMale.m in Sources */,
+				E116739D231F457900CC33C5 /* DesignPatternTest.m in Sources */,
+				E116739E231F457900CC33C5 /* Builder.m in Sources */,
+				E116739F231F457900CC33C5 /* TV.m in Sources */,
+				E11673A0231F457900CC33C5 /* WTYSortAlgorithm.m in Sources */,
+				E11673A1231F457900CC33C5 /* Heap.m in Sources */,
+				E11673A2231F457900CC33C5 /* ViewController.m in Sources */,
+				E11673A3231F457900CC33C5 /* HouseHoldAppliances.m in Sources */,
+				E11673A4231F457900CC33C5 /* AbstractFactory.m in Sources */,
+				E11673A5231F457900CC33C5 /* Light.m in Sources */,
+				E11673A6231F457900CC33C5 /* AndroidMonkey.m in Sources */,
+				E11673A7231F457900CC33C5 /* Link.swift in Sources */,
+				E11673A8231F457900CC33C5 /* ZDShape.m in Sources */,
+				E11673A9231F457900CC33C5 /* Subject.m in Sources */,
+				E11673AA231F457900CC33C5 /* Memento.m in Sources */,
+				E11673AB231F457900CC33C5 /* User.m in Sources */,
+				E11673AC231F457900CC33C5 /* StopState.m in Sources */,
+				E11673AD231F457900CC33C5 /* Wrapper.m in Sources */,
+				E11673AE231F457900CC33C5 /* Packing.m in Sources */,
+				E11673AF231F457900CC33C5 /* TVOnCommand.m in Sources */,
+				E11673B0231F457900CC33C5 /* Circle.m in Sources */,
+				E11673B1231F457900CC33C5 /* ShapeFactory.m in Sources */,
+				E11673B2231F457900CC33C5 /* Burger.m in Sources */,
+				E11673B3231F457900CC33C5 /* AppDelegate.m in Sources */,
+				E11673B4231F457900CC33C5 /* Context.m in Sources */,
+				E11673B5231F457900CC33C5 /* OpenClosed.m in Sources */,
+				E11673B6231F457900CC33C5 /* Command.m in Sources */,
+				E11673B7231F457900CC33C5 /* AndCriteria.m in Sources */,
+				E11673B8231F457900CC33C5 /* MiPhtone.m in Sources */,
+				E11673B9231F457900CC33C5 /* ConsoleLogger.m in Sources */,
+				E11673BA231F457900CC33C5 /* ShapeMaker.m in Sources */,
+				E11673BB231F457900CC33C5 /* ShapCache.m in Sources */,
+				E11673BC231F457900CC33C5 /* TestClass.swift in Sources */,
+				E11673BD231F457900CC33C5 /* Strategy.m in Sources */,
+				E11673BE231F457900CC33C5 /* ShapeDecorator.m in Sources */,
+				E11673BF231F457900CC33C5 /* ZDCircle.m in Sources */,
+				E11673C0231F457900CC33C5 /* MealBuilder.m in Sources */,
+				E11673C1231F457900CC33C5 /* WinPlatform.m in Sources */,
+				E11673C2231F457900CC33C5 /* CareTaker.m in Sources */,
+				E11673C3231F457900CC33C5 /* Item.m in Sources */,
+				E11673C4231F457900CC33C5 /* Square.m in Sources */,
+				E11673C5231F457900CC33C5 /* SingleObject.m in Sources */,
+				E11673C6231F457900CC33C5 /* ZDShapFactory.m in Sources */,
+				E11673C7231F457900CC33C5 /* Person.m in Sources */,
+				E11673C8231F457900CC33C5 /* main.m in Sources */,
+				E11673C9231F457900CC33C5 /* BinaryTree.m in Sources */,
+				E11673CA231F457900CC33C5 /* StartState.m in Sources */,
+				E11673CB231F457900CC33C5 /* Criteria.m in Sources */,
+				E11673CC231F457900CC33C5 /* Platform.m in Sources */,
+				E11673CD231F457900CC33C5 /* Heap.swift in Sources */,
+				E11673CE231F457900CC33C5 /* FileLogger.m in Sources */,
+				E11673CF231F457900CC33C5 /* WTYQueue.m in Sources */,
+				E11673D0231F457900CC33C5 /* IosMonkey.m in Sources */,
+				E11673D1231F457900CC33C5 /* ZDRed.m in Sources */,
+				E11673D2231F457900CC33C5 /* OrCriteria.m in Sources */,
+				E11673D3231F457900CC33C5 /* State.m in Sources */,
+				E11673D4231F457900CC33C5 /* Observer.m in Sources */,
+				E11673D5231F457900CC33C5 /* CriteriaSingle.m in Sources */,
+				E11673D6231F457900CC33C5 /* LightOnCommand.m in Sources */,
+				E11673D7231F457900CC33C5 /* StateContext.m in Sources */,
+				E11673D8231F457900CC33C5 /* LiskovSubstitution.m in Sources */,
+				E11673D9231F457900CC33C5 /* Rectangle.m in Sources */,
+				E11673DA231F457900CC33C5 /* Shape.m in Sources */,
+				E11673DB231F457900CC33C5 /* Originator.m in Sources */,
+				E11673DC231F457900CC33C5 /* MacPlatform.m in Sources */,
+				E11673DD231F457900CC33C5 /* LawOfDemeter.m in Sources */,
+				E11673DE231F457900CC33C5 /* ZDColor.m in Sources */,
+				E11673DF231F457900CC33C5 /* ErrorLogger.m in Sources */,
+				E11673E0231F457900CC33C5 /* SingleResponsibility.m in Sources */,
+				E11673E1231F457900CC33C5 /* InterfaceSegregation.m in Sources */,
+				E11673E2231F457900CC33C5 /* Monkey.m in Sources */,
+				E11673E3231F457900CC33C5 /* FlyWeightShapFactory.m in Sources */,
+				E11673E4231F457900CC33C5 /* DataStructureTest.m in Sources */,
+				E11673E5231F457900CC33C5 /* ChatRoom.m in Sources */,
+				E11673E6231F457900CC33C5 /* DependenceInversion.m in Sources */,
+				E11673E7231F457900CC33C5 /* FactoryProducer.m in Sources */,
+				E11673E8231F457900CC33C5 /* WTYLinkQueue.m in Sources */,
+				E11673E9231F457900CC33C5 /* AbstractLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1192,11 +1553,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 56DB234WRR;
 				INFOPLIST_FILE = ClassAPITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhidian.ClassAPITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassAPITest/数据结构/堆/ClassAPITest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1204,22 +1569,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 56DB234WRR;
 				INFOPLIST_FILE = ClassAPITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhidian.ClassAPITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassAPITest/数据结构/堆/ClassAPITest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		C838F77E1D3CDF5B002A3D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ClassAPITestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.ClassAPITestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassAPITestTests/ClassAPITestTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassAPITest.app/ClassAPITest";
 			};
 			name = Debug;
@@ -1227,11 +1600,15 @@
 		C838F77F1D3CDF5B002A3D71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ClassAPITestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.ClassAPITestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassAPITestTests/ClassAPITestTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassAPITest.app/ClassAPITest";
 			};
 			name = Release;
@@ -1239,6 +1616,7 @@
 		C838F7811D3CDF5B002A3D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ClassAPITestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.ClassAPITestUITests;
@@ -1250,11 +1628,49 @@
 		C838F7821D3CDF5B002A3D71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ClassAPITestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoma.ClassAPITestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ClassAPITest;
+			};
+			name = Release;
+		};
+		E11673F0231F457900CC33C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "ClassAPITest copy.entitlements";
+				DEVELOPMENT_TEAM = 56DB234WRR;
+				INFOPLIST_FILE = "ClassAPITest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidian.ClassAPITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassAPITest/数据结构/堆/ClassAPITest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E11673F1231F457900CC33C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "ClassAPITest copy.entitlements";
+				DEVELOPMENT_TEAM = 56DB234WRR;
+				INFOPLIST_FILE = "ClassAPITest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidian.ClassAPITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassAPITest/数据结构/堆/ClassAPITest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1293,6 +1709,15 @@
 			buildConfigurations = (
 				C838F7811D3CDF5B002A3D71 /* Debug */,
 				C838F7821D3CDF5B002A3D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11673EF231F457900CC33C5 /* Build configuration list for PBXNativeTarget "ClassAPITest copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11673F0231F457900CC33C5 /* Debug */,
+				E11673F1231F457900CC33C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

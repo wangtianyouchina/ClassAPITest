@@ -93,8 +93,7 @@
     // 2. 全排序
     // 3. 左 排序
     // 4. 右 排序
-    
-    if (start >= end) {
+        if (start >= end) {
         return;
     }
     
@@ -103,6 +102,61 @@
     [self quickSort:array start:mid+1 end:end];
 }
 
+/*
+ *   bubbleSort(array)
+ *         count = arrar.count;
+ *         for i=1 to array.count-1 // 多比较一次也没关系
+ *             for j=0 to array.count-i-1
+ *                   if array[j] < array[j+1]
+ *                         swap(j,j+1)
+ *
+ */
+
++(void)bubbleSort:(NSMutableArray *)array {
     
+    //  array.count 是无符号整型 不会为负 如减到负值是 最变成了 无穷大
+    BOOL isOk = YES;
+    for (int i = 0; i <  (NSInteger)array.count-1 && isOk; i ++) {
+        isOk = YES;
+        for (int j = 0; j < (NSInteger)array.count - i -2 ; j ++) {
+            if ([array[j] integerValue] < [array[j+1] integerValue]) {
+                [array exchangeObjectAtIndex:j withObjectAtIndex:j+1];
+                isOk = NO;
+            }
+        }
+    }
+    
+}
+/*
+ *  insertSort(array)
+ *     count = array.count
+ *     for i = 1 to count-1
+ *         for j = i down 1
+ *             if array[j] < array[j-1]
+ *                swap(j,j-1)
+ *             else
+ *                break
+ *
+ */
++(void)insertSort:(NSMutableArray *)array {
+    
+    NSInteger count = array.count;
+    for (int i = 1; i <= count-1; i ++) {
+        for (int j = i;j >= 1 ; j --) {
+            if ([array[j] integerValue] < [array[j-1] integerValue]) {
+                [array exchangeObjectAtIndex:j withObjectAtIndex:j-1];
+            }
+            else {
+                break;
+            }
+        }
+    }
+}
+
++(void)heapSort:(NSMutableArray *)array {
+    
+    
+}
+
 
 @end

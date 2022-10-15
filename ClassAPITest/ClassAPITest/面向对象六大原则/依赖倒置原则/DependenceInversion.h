@@ -35,6 +35,9 @@
 @end
 
 @interface AutoSystem:NSObject
+
+// ** 依赖了具体类了
+-(void)ranHondaCar:(HondaCar *)car;
 // 依赖抽象 再添加车, 不需要改变这个类, 对修改关闭了, 对扩展开放
 -(void)runCar:(Car *)car;
 // 依赖具体, 如果再添加车 就要再添加方法 对修改开放了 . . .
